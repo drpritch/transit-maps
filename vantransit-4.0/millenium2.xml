@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+
+<route label="Millenium Line" type="skytrain" colour="#fdd004"
+    sharedurl="skytrainCommon.xml" sharedoffset="0.5"
+    showsharedmarkers="1">
+<vertex long="-122.8946" lat="49.2473" />
+<vertex long="-122.8937" lat="49.2473" />
+<vertex long="-122.8929" lat="49.2481" />
+<vertex long="-122.8929" lat="49.2491" />
+<vertex long="-122.8929" lat="49.2533" />
+<vertex long="-122.8929" lat="49.2568" />
+<vertex long="-122.8929" lat="49.2589" />
+<vertex long="-122.8915" lat="49.2603" />
+<vertex label="Burquitlam" long="-122.8900" lat="49.2613"
+    markerzoom="11" labelzoom="12"
+    labelwidth="61" labelheight="12"
+    labellocation="r">
+    <bus label="143" type="rush" />
+    <bus label="151" />
+    <bus label="156" />
+    <bus label="157" />
+    <bus label="180" />
+</vertex>
+<vertex long="-122.8879" lat="49.2632" />
+<vertex long="-122.8792" lat="49.2700" />
+<vertex long="-122.8761" lat="49.2726" />
+<vertex long="-122.8745" lat="49.2746" />
+<vertex long="-122.8726" lat="49.2776" />
+<vertex long="-122.8685" lat="49.2793" />
+<vertex long="-122.8622" lat="49.2788" />
+<vertex long="-122.8571" lat="49.2779" />
+<vertex label="Moody Centre" long="-122.8457" lat="49.2779"
+    markerzoom="10" labelzoom="11"
+    labelwidth="78" labelheight="11"
+    labellocation="t">
+    <bus label="160" />
+    <bus label="180" />
+    <bus label="181" />
+    <bus label="182" />
+    <bus label="183" />
+    <bus label="184" />
+</vertex>
+<vertex long="-122.8341" lat="49.2776" />
+<vertex long="-122.8320" lat="49.2777" />
+<vertex label="Inlet Centre" long="-122.8284" lat="49.2773" 
+    markerzoom="11" labelzoom="13"
+    labelwidth="66" labelheight="11"
+    labellocation="b">
+    <bus label="160" />
+    <bus label="183" />
+    <bus label="179" type="rush" />
+    <bus label="184" />
+</vertex>
+<vertex long="-122.8260" lat="49.2768" />
+<vertex long="-122.8083" lat="49.2765" />
+<vertex long="-122.8043" lat="49.2759" />
+<vertex label="Coquitlam Central" long="-122.8005" lat="49.2748"
+    markerzoom="10" labelzoom="11"
+    labelwidth="60" labelheight="20"
+    labellocation="r">
+    <bus label="150" type="rush" />
+    <bus label="151" />
+    <bus label="152" />
+    <bus label="153" />
+    <bus label="160" />
+    <bus label="169" />
+    <bus label="171" />
+    <bus label="172" />
+    <bus label="173" />
+    <bus label="174" />
+    <bus label="175" type="rush" />
+    <bus label="179" type="rush" />
+    <bus label="183" />
+    <bus label="185" />
+    <bus label="186" />
+    <bus label="187" />
+    <bus label="188" />
+    <bus label="189" />
+    <bus label="191" />
+    <bus label="701" />
+    <bus label="N9" type="night" />
+</vertex>
+<vertex long="-122.7993" lat="49.2747" />
+<vertex long="-122.7986" lat="49.2751" />
+<vertex label="Lincoln" long="-122.7940" lat="49.2804"
+    markerzoom="11" labelzoom="13"
+    labelwidth="44" labelheight="11"
+    labellocation="r">
+    <bus label="160" />
+    <bus label="183" />
+    <bus label="186" />
+    <bus label="188" />
+</vertex>
+<vertex long="-122.7931" lat="49.2815" />
+<vertex long="-122.7929" lat="49.2821" />
+<vertex long="-122.7929" lat="49.2833" />
+<vertex label="Lafarge Lake-Douglas" long="-122.7917" lat="49.2855"
+    markerzoom="10" labelzoom="12"
+    labelwidth="72" labelheight="20"
+    labellocation="t">
+    <bus label="160" />
+    <bus label="183" />
+    <bus label="186" />
+    <bus label="188" />
+    <bus label="191" />
+</vertex>
+</route>

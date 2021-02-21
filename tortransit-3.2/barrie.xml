@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+
+<route label="Barrie" type="gotrain" colour="#31b252" width="8"
+    defaultstop="gostop" operator="gotransit" opacity="1.0">
+<vertex label="Union Station" lat="43.6448" long="-79.3796"
+    markerzoom="-1" labelzoom="-1"
+    address="55 Front St. W"
+    url="http://gotransit.com/publicroot/en/travelling/stations.aspx?station=USTN"
+    marker="interchange" accessible="1" />
+<vertex lat="43.6400" long="-79.4049" />
+<vertex lat="43.6410" long="-79.4253" />
+<vertex lat="43.6479" long="-79.4401" />
+<vertex lat="43.6502" long="-79.4422" />
+<vertex lat="43.6678" long="-79.4493" />
+<vertex lat="43.6712" long="-79.4511" />
+<vertex lat="43.6740" long="-79.4552" />
+<vertex lat="43.6834" long="-79.4615" />
+<vertex lat="43.6893" long="-79.4630" />
+<vertex lat="43.6933" long="-79.4654" />
+<vertex label="Downsview Park" lat="43.7536" long="-79.4784"
+    markerzoom="14" labelzoom="-1"
+    labelwidth="56" labelheight="20" labellocation="r"
+    address="80 Carl Hall Rd."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=DWPK"
+    accessible="1" />
+<vertex label="York University" lat="43.7766" long="-79.4829"
+    markerzoom="11" labelzoom="12"
+    labelwidth="56" labelheight="20" labellocation="r"
+    address="595A Canarctic Dr."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=YKGO"
+    accessible="1" />
+<vertex lat="43.8099" long="-79.4896" />
+<vertex lat="43.8172" long="-79.4942" />
+<vertex lat="43.8197" long="-79.4950" />
+<vertex label="Rutherford" lat="43.8381" long="-79.4980"
+    markerzoom="10" labelzoom="10"
+    labelwidth="64" labelheight="11" labellocation="r"
+    address="699 Westburne Dr."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=RUGO"
+    washroom="1" cashparking="1" accessible="1" />
+<vertex lat="43.8455" long="-79.4995" />
+<vertex lat="43.8560" long="-79.5065" />
+<vertex label="Maple" lat="43.8594" long="-79.5071"
+    markerzoom="9" labelzoom="10"
+    labelwidth="33" labelheight="11" labellocation="r"
+    address="30 Station St."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=MAGO"
+    washroom="1" cashparking="1" accessible="1" />
+<vertex lat="43.8605" long="-79.5075" />
+<vertex lat="43.8752" long="-79.5164" />
+<vertex lat="43.8854" long="-79.5241" />
+<vertex lat="43.8935" long="-79.5248" />
+<vertex lat="43.8954" long="-79.5244" />
+<vertex lat="43.9172" long="-79.5263" />
+<vertex label="King City" lat="43.9205" long="-79.5271"
+    markerzoom="9" labelzoom="10"
+    labelwidth="50" labelheight="11" labellocation="r"
+    address="7 Station Rd."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=KGGO"
+    cashparking="1" accessible="1" />
+<vertex lat="43.9280" long="-79.5292" />
+<vertex lat="43.9313" long="-79.5268" />
+<vertex lat="43.9401" long="-79.5020" />
+<vertex lat="43.9613" long="-79.4869" />
+<vertex lat="43.9632" long="-79.4791" />
+<vertex lat="43.9662" long="-79.4747" />
+<vertex lat="43.9714" long="-79.4727" />
+<vertex lat="43.9761" long="-79.4719" />
+<vertex lat="43.9853" long="-79.4572" />
+<vertex lat="43.9880" long="-79.4557" />
+<vertex label="Aurora" lat="44.0007" long="-79.4598"
+    markerzoom="10" labelzoom="10"
+    labelwidth="43" labelheight="11" labellocation="r"
+    address="121 Wellington St. E"
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=AUGO"
+    washroom="1" cashparking="1" accessible="1" />
+<vertex lat="44.0131" long="-79.4640" />
+<vertex lat="44.0234" long="-79.4644" />
+<vertex lat="44.0508" long="-79.4539" />
+<vertex lat="44.0579" long="-79.4579" />
+<vertex label="Newmarket" lat="44.0599" long="-79.4597"
+    markerzoom="9" labelzoom="10"
+    labelwidth="65" labelheight="11" labellocation="r"
+    address="465 Davis Dr."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=NMGO"
+    washroom="1" cashparking="1" accessible="1" />
+<vertex lat="44.0620" long="-79.4611" />
+<vertex lat="44.0704" long="-79.4575" />
+<vertex lat="44.0737" long="-79.4545" />
+<vertex label="East Gwillimbury" lat="44.0793" long="-79.4555"
+    markerzoom="10" labelzoom="10"
+    labelwidth="67" labelheight="20" labellocation="r"
+    address="845 Green Lane E"
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=GWIL"
+    washroom="1" cashparking="1" accessible="1" />
+<vertex lat="44.0853" long="-79.4570" />
+<vertex lat="44.0874" long="-79.4596" />
+<vertex lat="44.0886" long="-79.4724" />
+<vertex lat="44.0912" long="-79.4789" />
+<vertex lat="44.0939" long="-79.4926" />
+<vertex lat="44.1007" long="-79.4990" />
+<vertex label="Bradford" lat="44.1148" long="-79.5503"
+    markerzoom="9" labelzoom="10"
+    labelwidth="53" labelheight="11" labellocation="r"
+    address="251 Holland St. E"
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=BDGO"
+    cashparking="1" accessible="1" />
+<vertex lat="44.1166" long="-79.5568" />
+<vertex lat="44.1213" long="-79.5582" />
+<vertex lat="44.1234" long="-79.5576" />
+<vertex lat="44.1293" long="-79.5537" />
+<vertex lat="44.1350" long="-79.5529" />
+<vertex lat="44.1427" long="-79.5540" />
+<vertex lat="44.1563" long="-79.5509" />
+<vertex lat="44.1650" long="-79.5464" />
+<vertex lat="44.1757" long="-79.5429" />
+<vertex lat="44.1937" long="-79.5424" />
+<vertex lat="44.2047" long="-79.5396" />
+<vertex lat="44.2126" long="-79.5390" />
+<vertex lat="44.2362" long="-79.5543" />
+<vertex lat="44.2462" long="-79.5568" />
+<vertex lat="44.2581" long="-79.5553" />
+<vertex lat="44.2681" long="-79.5587" />
+<vertex lat="44.2764" long="-79.5556" />
+<vertex lat="44.2941" long="-79.5599" />
+<vertex lat="44.2950" long="-79.5606" />
+<vertex lat="44.2963" long="-79.5620" />
+<vertex lat="44.2972" long="-79.5639" />
+<vertex lat="44.2996" long="-79.5708" />
+<vertex lat="44.3002" long="-79.5721" />
+<vertex lat="44.3012" long="-79.5733" />
+<vertex lat="44.3029" long="-79.5742" />
+<vertex lat="44.3044" long="-79.5746" />
+<vertex lat="44.3059" long="-79.5751" />
+<vertex lat="44.3077" long="-79.5769" />
+<vertex lat="44.3149" long="-79.5898" />
+<vertex lat="44.3393" long="-79.6203" />
+<vertex lat="44.3412" long="-79.6217" />
+<vertex lat="44.3481" long="-79.6240" />
+<vertex label="Barrie South" lat="44.3500" long="-79.6255"
+    markerzoom="9" labelzoom="9"
+    labelwidth="36" labelheight="20" labellocation="r"
+    address="833 Yonge St."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=BSGO"
+    washroom="1" cashparking="1" accessible="1" />
+<vertex lat="44.3539" long="-79.6311" />
+<vertex lat="44.3539" long="-79.6311" />
+<vertex lat="44.3683" long="-79.6463" />
+<vertex lat="44.3683" long="-79.6463" />
+<vertex lat="44.3707" long="-79.6607" />
+<vertex lat="44.3713" long="-79.6641" />
+<vertex lat="44.3734" long="-79.6830" />
+<vertex lat="44.3733" long="-79.6849" />
+<vertex label="Allandale Waterfront" lat="44.3737" long="-79.6888"
+    markerzoom="9" labelzoom="10"
+    labelwidth="70" labelheight="20" labellocation="r"
+    address="24 Essa Rd."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=ADGO"
+    cashparking="1" accessible="1" />
+</route>

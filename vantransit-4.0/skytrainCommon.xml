@@ -1,0 +1,33 @@
+<routefragment>
+<vertex label="Production Way-University" long="-122.9183" lat="49.2534"
+    markerzoom="11" labelzoom="12"
+    labelwidth="96" labelheight="20"
+    labellocation="t"
+    bikelockers="1">
+    <bus label="110" />
+    <bus label="136" />
+    <bus label="145" />
+</vertex>
+<vertex long="-122.9095" lat="49.2521" />
+<vertex long="-122.9075" lat="49.2517" />
+<vertex long="-122.9026" lat="49.2509" />
+<vertex long="-122.8995" lat="49.2495" />
+<vertex label="Lougheed Town Centre" long="-122.8970" lat="49.2484"
+    markerzoom="10" labelzoom="11"
+    labelwidth="75" labelheight="20"
+    labellocation="bl"
+    bikelockers="1">
+    <bus label="97" type="bline" />
+    <bus label="101" />
+    <bus label="110" />
+    <bus label="136" />
+    <bus label="152" />
+    <bus label="156" />
+    <bus label="157" />
+    <bus label="180" />
+    <bus label="555" />
+    <bus label="C9" />
+    <bus label="N9" type="night" />
+</vertex>
+<vertex long="-122.8946" lat="49.2473" />
+</routefragment>

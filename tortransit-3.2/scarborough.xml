@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<route label="Scarborough RT" type="rapid transit" colour="#cc0000"
+       width="8" operator="ttc" opacity="1.0">
+<vertex label="Kennedy" long="-79.2636" lat="43.7324"
+    markerzoom="-1" labelzoom="-1"
+    address="2455 Eglinton Ave. E"
+    url="http://www3.ttc.ca/Subway/Stations/Kennedy/station.jsp"
+    elevator="1" washroom="1" metropassparking="1" cashparking="1"
+    marker="interchange" />
+<vertex long="-79.2629" lat="43.7329" />
+<vertex label="Lawrence East" long="-79.2701" lat="43.7504"
+    markerzoom="11" labelzoom="12"
+    labelwidth="78" labelheight="11"
+    labellocation="tl"
+    address="2444 Lawrence Ave. E"
+    url="http://www3.ttc.ca/Subway/Stations/Lawrence_East/station.jsp"
+    cashparking="1" />
+<vertex label="Ellesmere" long="-79.2762" lat="43.7668"
+    markerzoom="11" labelzoom="12"
+    labelwidth="49" labelheight="11"
+    labellocation="tl"
+    address="1025 Ellesmere Rd."
+    url="http://www3.ttc.ca/Subway/Stations/Ellesmere/station.jsp"
+    transfer="1" />
+<vertex long="-79.2767" lat="43.7685" />
+<vertex long="-79.2757" lat="43.7696" />
+<vertex label="Midland" long="-79.2719" lat="43.7704"
+    markerzoom="11" labelzoom="12"
+    labelwidth="48" labelheight="11"
+    labellocation="t"
+    address="2085 Midland Ave."
+    url="http://www3.ttc.ca/Subway/Stations/Midland/station.jsp"
+    transfer="1" />
+<vertex long="-79.2677" lat="43.7714" />
+<vertex long="-79.2660" lat="43.7720" />
+<vertex long="-79.2639" lat="43.7725" />
+<vertex long="-79.2593" lat="43.7740" />
+<vertex label="Scarborough Centre" long="-79.2582" lat="43.7744"
+    markerzoom="11" labelzoom="12"
+    labelwidth="76" labelheight="20"
+    labellocation="t"
+    marker="interchange"
+    address="Scarborough Town Centre"
+    url="http://www3.ttc.ca/Subway/Stations/Scarborough_Centre/station.jsp"
+    elevator="1" />
+<vertex long="-79.2560" lat="43.7748" />
+<vertex long="-79.2534" lat="43.7750" />
+<vertex label="McCowan" long="-79.2518" lat="43.7750"
+    markerzoom="10" labelzoom="11"
+    labelwidth="56" labelheight="11"
+    labellocation="r"
+    address="1275 McCowan Rd."
+    url="http://www3.ttc.ca/Subway/Stations/McCowan/station.jsp"
+    transfer="1" />
+</route>

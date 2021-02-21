@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+
+<route label="West Coast Express" type="wce" colour="#8168ae" width="6">
+<vertex label="Waterfront" long="-123.1114" lat="49.2860"
+    markerzoom="15" labelzoom="15" />
+<vertex long="-123.1089" lat="49.2850" />
+<vertex long="-123.1038" lat="49.2842" />
+<vertex long="-123.0942" lat="49.2856" />
+<vertex long="-123.0835" lat="49.2827" />
+<vertex long="-123.0658" lat="49.2850" />
+<vertex long="-123.0626" lat="49.2864" />
+<vertex long="-123.0601" lat="49.2897" />
+<vertex long="-123.0562" lat="49.2915" />
+<vertex long="-123.0494" lat="49.2928" />
+<vertex long="-123.0431" lat="49.2914" />
+<vertex long="-123.0399" lat="49.2893" />
+<vertex long="-123.0364" lat="49.2886" />
+<vertex long="-123.0335" lat="49.2888" />
+<vertex long="-123.0268" lat="49.2923" />
+<vertex long="-123.0231" lat="49.2933" />
+<vertex long="-123.0192" lat="49.2934" />
+<vertex long="-123.0103" lat="49.2924" />
+<vertex long="-123.0057" lat="49.2904" />
+<vertex long="-123.0009" lat="49.2902" />
+<vertex long="-122.9893" lat="49.2949" />
+<vertex long="-122.9868" lat="49.2949" />
+<vertex long="-122.9817" lat="49.2923" />
+<vertex long="-122.9743" lat="49.2891" />
+<vertex long="-122.9627" lat="49.2870" />
+<vertex long="-122.9513" lat="49.2900" />
+<vertex long="-122.9473" lat="49.2900" />
+<vertex long="-122.9332" lat="49.2918" />
+<vertex long="-122.9190" lat="49.2885" />
+<vertex long="-122.9133" lat="49.2892" />
+<vertex long="-122.9040" lat="49.2880" />
+<vertex long="-122.8993" lat="49.2886" />
+<vertex long="-122.8932" lat="49.2914" />
+<vertex long="-122.8910" lat="49.2916" />
+<vertex long="-122.8855" lat="49.2907" />
+<vertex long="-122.8793" lat="49.2918" />
+<vertex long="-122.8741" lat="49.2919" />
+<vertex long="-122.8702" lat="49.2904" />
+<vertex long="-122.8673" lat="49.2884" />
+<vertex long="-122.8661" lat="49.2853" />
+<vertex long="-122.8661" lat="49.2825" />
+<vertex long="-122.8655" lat="49.2810" />
+<vertex long="-122.8622" lat="49.2792" />
+<vertex long="-122.8576" lat="49.2780" />
+<vertex long="-122.8518" lat="49.2783" />
+<vertex label="Moody Centre" long="-122.8463" lat="49.2780"
+    markerzoom="13" labelzoom="99"
+    bikelockers="1" parkandride="1">
+</vertex>
+<vertex long="-122.8352" lat="49.2779" />
+<vertex long="-122.8258" lat="49.2765" />
+<vertex long="-122.8039" lat="49.2756" />
+<vertex label="Coquitlam Central" long="-122.7997" lat="49.2738"
+    markerzoom="10" labelzoom="99"
+    bikelockers="1" parkandride="1" />
+<vertex long="-122.7931" lat="49.2702" />
+<vertex label="Port Coquitlam" long="-122.7767" lat="49.2632"
+    markerzoom="10" labelzoom="11"
+    labelwidth="84" labelheight="12"
+    labellocation="tr"
+    parkandride="1">
+    <bus label="159" />
+    <bus label="160" />
+    <bus label="170" />
+    <bus label="173" />
+    <bus label="174" />
+    <bus label="175" type="rush" />
+    <bus label="188" />
+</vertex>
+<vertex long="-122.7409" lat="49.2481" />
+<vertex long="-122.7369" lat="49.2464" />
+<vertex long="-122.7003" lat="49.2307" />
+<vertex label="Pitt Meadows" long="-122.6884" lat="49.2257"
+    markerzoom="10" labelzoom="11"
+    labelwidth="73" labelheight="11"
+    labellocation="tr"
+    bikelockers="1" parkandride="1">
+    <bus label="701" />
+    <bus label="791" type="rush" />
+    <bus label="C41" type="rush" />
+</vertex>
+<vertex label="Maple Meadows" long="-122.6626" lat="49.2149"
+    markerzoom="10" labelzoom="11"
+    labelwidth="82" labelheight="11"
+    labellocation="tr"
+    bikelockers="1" parkandride="1">
+    <bus label="595" />
+    <bus label="701" type="rush" />
+    <bus label="791" type="rush" />
+    <bus label="C41" type="rush" />
+    <bus label="C43" type="rush" />
+    <bus label="C44" type="rush" />
+</vertex>
+<vertex long="-122.6528" lat="49.2064" />
+<vertex long="-122.6477" lat="49.2055" />
+<vertex long="-122.6391" lat="49.2085" />
+<vertex long="-122.6253" lat="49.2122" />
+<vertex long="-122.6106" lat="49.2132" />
+<vertex label="Port Haney" long="-122.6018" lat="49.2113"
+    markerzoom="10" labelzoom="11"
+    labelwidth="62" labelheight="11"
+    labellocation="tr"
+    bikelockers="1">
+    <bus label="C43" type="rush" />
+    <bus label="C45" type="rush" />
+    <bus label="C46" type="rush" />
+    <bus label="C47" type="rush" />
+    <bus label="C48" type="rush" />
+</vertex>
+<vertex long="-122.6006" lat="49.2109" />
+<vertex long="-122.5859" lat="49.2049" />
+<vertex long="-122.5812" lat="49.2032" />
+<vertex long="-122.5724" lat="49.1916" />
+<vertex long="-122.5600" lat="49.1828" />
+<vertex long="-122.5449" lat="49.1776" />
+<vertex long="-122.5288" lat="49.1734" />
+<vertex long="-122.5076" lat="49.1726" />
+<vertex long="-122.4991" lat="49.1707" />
+<vertex long="-122.4641" lat="49.1741" />
+<vertex long="-122.4344" lat="49.1730" />
+<vertex long="-122.4201" lat="49.1710" />
+<vertex long="-122.4113" lat="49.1643" />
+<vertex long="-122.4031" lat="49.1569" />
+<vertex long="-122.3501" lat="49.1352" />
+<vertex long="-122.3435" lat="49.1315" />
+<vertex long="-122.3363" lat="49.1301" />
+<vertex long="-122.3092" lat="49.1336" />
+<vertex label="Mission" long="-122.3039" lat="49.1336"
+    markerzoom="10" labelzoom="11"
+    labelwidth="39" labelheight="11"
+    labellocation="tr"
+    bikelockers="1" parkandride="1" />
+
+</route>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<route label="Expo Line branch" type="skytrain" colour="#004f92"
+    sharedurl="skytrainCommon.xml" sharedoffset="-0.5"
+    showsharedmarkers="0">
+<vertex long="-122.8946" lat="49.2473" />
+<vertex long="-122.8928" lat="49.2418" />
+<vertex long="-122.8837" lat="49.2362" />
+<vertex label="Braid" long="-122.8826" lat="49.2306"
+    markerzoom="11" labelzoom="12"
+    labelwidth="32" labelheight="11"
+    labellocation="r"
+    bikelockers="1">
+    <bus label="128" />
+    <bus label="153" />
+    <bus label="155" />
+    <bus label="156" />
+    <bus label="159" />
+    <bus label="169" />
+    <bus label="791" type="rush" />
+</vertex>
+<vertex label="Sapperton" long="-122.8895" lat="49.2246"
+    markerzoom="11" labelzoom="13"
+    labelwidth="56" labelheight="11"
+    labellocation="r" />
+<vertex long="-122.8919" lat="49.2226" />
+<vertex long="-122.8949" lat="49.2130" />
+<vertex long="-122.8976" lat="49.2110" />
+<vertex long="-122.9013" lat="49.2065" />
+</route>

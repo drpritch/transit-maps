@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+
+<route label="Richmond Hill" type="gotrain" colour="#31b252" width="8"
+    defaultstop="gostop" operator="gotransit" opacity="1.0">
+<vertex label="Union Station" lat="43.6448" long="-79.3796"
+    markerzoom="-1" labelzoom="-1"
+    address="55 Front St. W"
+    url="http://gotransit.com/publicroot/en/travelling/stations.aspx?station=USTN"
+    marker="interchange" accessible="1" />
+<vertex lat="43.6491" long="-79.3585" />
+<vertex lat="43.6525" long="-79.3516" />
+<vertex lat="43.6541" long="-79.3508" />
+<vertex lat="43.6579" long="-79.3549" />
+<vertex lat="43.6668" long="-79.3575" />
+<vertex lat="43.6687" long="-79.3582" />
+<vertex lat="43.6727" long="-79.3628" />
+<vertex lat="43.6749" long="-79.3643" />
+<vertex lat="43.6760" long="-79.3647" />
+<vertex lat="43.6767" long="-79.3651" />
+<vertex lat="43.6795" long="-79.3673" />
+<vertex lat="43.6801" long="-79.3676" />
+<vertex lat="43.6807" long="-79.3676" />
+<vertex lat="43.6813" long="-79.3675" />
+<vertex lat="43.6820" long="-79.3669" />
+<vertex lat="43.6840" long="-79.3632" />
+<vertex lat="43.6844" long="-79.3627" />
+<vertex lat="43.6846" long="-79.3625" />
+<vertex lat="43.6852" long="-79.3622" />
+<vertex lat="43.6859" long="-79.3621" />
+<vertex lat="43.6875" long="-79.3628" />
+<vertex lat="43.6880" long="-79.3628" />
+<vertex lat="43.6886" long="-79.3627" />
+<vertex lat="43.6906" long="-79.3610" />
+<vertex lat="43.6930" long="-79.3600" />
+<vertex lat="43.6954" long="-79.3582" />
+<vertex lat="43.6974" long="-79.3563" />
+<vertex lat="43.6988" long="-79.3540" />
+<vertex lat="43.6992" long="-79.3450" />
+<vertex lat="43.7054" long="-79.3339" />
+<vertex lat="43.7101" long="-79.3243" />
+<vertex lat="43.7112" long="-79.3207" />
+<vertex lat="43.7122" long="-79.3199" />
+<vertex lat="43.7152" long="-79.3196" />
+<vertex lat="43.7225" long="-79.3231" />
+<vertex lat="43.7284" long="-79.3205" />
+<vertex lat="43.7296" long="-79.3207" />
+<vertex lat="43.7304" long="-79.3218" />
+<vertex lat="43.7311" long="-79.3254" />
+<vertex lat="43.7333" long="-79.3284" />
+<vertex lat="43.7346" long="-79.3329" />
+<vertex lat="43.7353" long="-79.3336" />
+<vertex lat="43.7377" long="-79.3339" />
+<vertex lat="43.7424" long="-79.3373" />
+<vertex lat="43.7432" long="-79.3459" />
+<vertex label="Oriole" lat="43.7664" long="-79.3654"
+    markerzoom="9" labelzoom="10"
+    labelwidth="37" labelheight="11" labellocation="bl"
+    address="3300 Leslie St."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=ORGO"
+    washroom="1" accessible="1" cashparking="1" />
+<vertex lat="43.7702" long="-79.3681" />
+<vertex lat="43.7738" long="-79.3688" />
+<vertex lat="43.7793" long="-79.3668" />
+<vertex label="Old Cummer" lat="43.7935" long="-79.3716"
+    markerzoom="10" labelzoom="10"
+    labelwidth="44" labelheight="20" labellocation="r"
+    address="5760 Leslie St."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=CMGO"
+    washroom="1" accessible="1" cashparking="1" />
+<vertex lat="43.7992" long="-79.3737" />
+<vertex lat="43.8033" long="-79.3766" />
+<vertex lat="43.8248" long="-79.3996" />
+<vertex lat="43.8278" long="-79.4125" />
+<vertex lat="43.8278" long="-79.4125" />
+<vertex label="Langstaff" lat="43.8383" long="-79.4233"
+    markerzoom="10" labelzoom="10"
+    labelwidth="54" labelheight="11" labellocation="r"
+    address="10 Red Maple Rd."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=LNGO"
+    washroom="1" accessible="1" cashparking="1" />
+<vertex lat="43.8436" long="-79.4275" />
+<vertex lat="43.8502" long="-79.4292" />
+<vertex lat="43.8556" long="-79.4287" />
+<vertex lat="43.8684" long="-79.4250" />
+<vertex label="Richmond Hill" lat="43.8741" long="-79.4265"
+    markerzoom="9" labelzoom="9"
+    labelwidth="77" labelheight="11" labellocation="r"
+    address="6 Newkirk Rd. S"
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=RHGO"
+    washroom="1" accessible="1" cashparking="1" />
+<vertex lat="43.8870" long="-79.4349" />
+<vertex lat="43.9109" long="-79.4270" />
+<vertex lat="43.9188" long="-79.4177" />
+<vertex lat="43.9253" long="-79.4130" />
+<vertex lat="43.9289" long="-79.4074" />
+<vertex lat="43.9328" long="-79.4051" />
+<vertex lat="43.9348" long="-79.3996" />
+<vertex lat="43.9361" long="-79.3979" />
+<vertex lat="43.9374" long="-79.3976" />
+<vertex label="Gormley" lat="43.9416" long="-79.3991"
+    markerzoom="10" labelzoom="10"
+    labelwidth="47" labelheight="11" labellocation="r"
+    address="1650 Stouffville Rd."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=GORL"
+    washroom="1" accessible="1" cashparking="1" />
+</route>

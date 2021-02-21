@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+
+<route label="Expo Line" type="skytrain" colour="#004f92">
+<vertex label="Waterfront" long="-123.1114" lat="49.2860"
+    markerzoom="10" labelzoom="11"
+    labelwidth="68" labelheight="11"
+    labellocation="t">
+    <bus label="3" />
+    <bus label="4" />
+    <bus label="6" />
+    <bus label="7" />
+    <bus label="8" />
+    <bus label="10" />
+    <bus label="44" type="rush" />
+    <bus label="50" />
+</vertex>
+<vertex long="-123.1158" lat="49.2878" />
+<vertex long="-123.1179" lat="49.2880" />
+<vertex long="-123.1191" lat="49.2876" />
+<vertex long="-123.1200" lat="49.2867" />
+<vertex label="Burrard" long="-123.1200" lat="49.2855"
+    markerzoom="11" labelzoom="13"
+    labelwidth="47" labelheight="11"
+    labellocation="l">
+    <bus label="2" />
+    <bus label="22" />
+    <bus label="32" type="rush" />
+    <bus label="44" type="rush" />
+    <bus label="135" />
+    <bus label="160" />
+    <bus label="190" type="rush" />
+    <bus label="209" type="rush" />
+    <bus label="210" />
+    <bus label="211" type="rush" />
+    <bus label="214" type="rush" />
+</vertex>
+<vertex label="Granville" long="-123.1170" lat="49.2830"
+    markerzoom="11" labelzoom="13"
+    labelwidth="52" labelheight="11"
+    labellocation="tr">
+    <bus label="4" />
+    <bus label="5" />
+    <bus label="6" />
+    <bus label="7" />
+    <bus label="10" />
+    <bus label="14" />
+    <bus label="16" />
+    <bus label="17" />
+    <bus label="20" />
+    <bus label="50" />
+    <bus label="240" />
+    <bus label="241" type="rush" />
+    <bus label="242" type="rush" />
+    <bus label="246" />
+    <bus label="247" type="rush" />
+    <bus label="250" />
+    <bus label="251" type="rush" />
+    <bus label="252" type="rush" />
+    <bus label="253" type="rush" />
+    <bus label="254" type="rush" />
+    <bus label="257" />
+</vertex>
+<vertex label="Stadium-Chinatown" long="-123.1099" lat="49.2799"
+    markerzoom="11" labelzoom="13"
+    labelwidth="66" labelheight="20"
+    labellocation="tr">
+    <bus label="240" />
+    <bus label="241" type="rush" />
+    <bus label="242" type="rush" />
+    <bus label="246" />
+    <bus label="247" type="rush" />
+    <bus label="C21" />
+    <bus label="C23" />
+</vertex>
+<vertex long="-123.1078" lat="49.2785" />
+<vertex long="-123.1046" lat="49.2777" />
+<vertex long="-123.1028" lat="49.2767" />
+<vertex long="-123.1023" lat="49.2734" />
+<vertex label="Main Street-Science World" long="-123.1002" lat="49.2731"
+    markerzoom="11" labelzoom="12"
+    labelwidth="80" labelheight="20"
+    labellocation="tr"
+    bikelockers="1">
+    <bus label="3" />
+    <bus label="8" />
+    <bus label="19" />
+    <bus label="22" type="rush" />
+    <bus label="23" />
+    <bus label="N8" type="night" />
+    <bus label="N19" type="night" />
+</vertex>
+<vertex long="-123.0824" lat="49.2696" />
+<vertex long="-123.0785" lat="49.2664" />
+<vertex label="Commercial-Broadway" long="-123.0692" lat="49.2618"
+    markerzoom="10" labelzoom="12"
+    labelwidth="68" labelheight="20"
+    labellocation="bl">
+    <bus label="9" />
+    <bus label="20" />
+    <bus label="99" type="bline" />
+    <bus label="N9" type="night" />
+    <bus label="N20" type="night" />
+</vertex>
+<vertex long="-123.0692" lat="49.2563" />
+<vertex long="-123.0646" lat="49.2512" />
+<vertex label="Nanaimo" long="-123.0560" lat="49.2483"
+    markerzoom="11" labelzoom="13"
+    labelwidth="48" labelheight="11"
+    labellocation="bl">
+    <bus label="7" />
+    <bus label="25" />
+</vertex>
+<vertex label="29th Ave." long="-123.0461" lat="49.2442"
+    markerzoom="11" labelzoom="13"
+    labelwidth="48" labelheight="11"
+    labellocation="bl">
+    <bus label="16" />
+    <bus label="26" />
+    <bus label="29" />
+    <bus label="33" />
+    <bus label="N16" type="night" />
+</vertex>
+<vertex label="Joyce-Collingwood" long="-123.0321" lat="49.2384"
+    markerzoom="11" labelzoom="12"
+    labelwidth="79" labelheight="20"
+    labellocation="bl">
+    <bus label="26" />
+    <bus label="27" />
+    <bus label="28" />
+    <bus label="41" />
+    <bus label="43" type="rush" />
+</vertex>
+<vertex label="Patterson" long="-123.0127" lat="49.2296"
+    markerzoom="11" labelzoom="13"
+    labelwidth="56" labelheight="11"
+    labellocation="bl">
+    <bus label="125" type="rush" />
+    <bus label="129" />
+</vertex>
+<vertex label="Metrotown" long="-123.0036" lat="49.2256"
+    markerzoom="10" labelzoom="11"
+    labelwidth="66" labelheight="11"
+    labellocation="bl"
+    bikelockers="1">
+    <bus label="19" />
+    <bus label="49" />
+    <bus label="106" />
+    <bus label="110" />
+    <bus label="112" type="rush" />
+    <bus label="116" />
+    <bus label="130" />
+    <bus label="144" />
+    <bus label="430" />
+    <bus label="C6" />
+    <bus label="C7" />
+</vertex>
+<vertex long="-122.9947" lat="49.2214" />
+<vertex label="Royal Oak" long="-122.9887" lat="49.2200"
+    markerzoom="11" labelzoom="13"
+    labelwidth="57" labelheight="11"
+    labellocation="bl">
+    <bus label="C5" />
+</vertex>
+<vertex long="-122.9794" lat="49.2181" />
+<vertex long="-122.9721" lat="49.2150" />
+<vertex long="-122.9631" lat="49.2149" />
+<vertex long="-122.9609" lat="49.2141" />
+<vertex label="Edmonds" long="-122.9594" lat="49.2121"
+    markerzoom="11" labelzoom="12"
+    labelwidth="50" labelheight="11"
+    labellocation="bl">
+    <bus label="106" />
+    <bus label="112" />
+    <bus label="116" />
+    <bus label="129" />
+    <bus label="C5" />
+    <bus label="C7" />
+</vertex>
+<vertex long="-122.9568" lat="49.2086" />
+<vertex long="-122.9569" lat="49.2070" />
+<vertex long="-122.9586" lat="49.2048" />
+<vertex long="-122.9589" lat="49.2028" />
+<vertex long="-122.9577" lat="49.2009" />
+<vertex long="-122.9533" lat="49.1994" />
+<vertex label="22nd St." long="-122.9494" lat="49.1999"
+    markerzoom="11" labelzoom="13"
+    labelwidth="43" labelheight="11"
+    labellocation="bl"
+    bikelockers="1">
+    <bus label="100" />
+    <bus label="101" />
+    <bus label="104" />
+    <bus label="128" />
+    <bus label="155" />
+    <bus label="340" />
+    <bus label="388" type="rush" />
+    <bus label="410" />
+    <bus label="C98" type="rush" />
+</vertex>
+<vertex long="-122.9451" lat="49.2009" />
+<vertex long="-122.9419" lat="49.2013" />
+<vertex long="-122.9355" lat="49.2036" />
+<vertex long="-122.9332" lat="49.2038" />
+<vertex long="-122.9287" lat="49.2033" />
+<vertex long="-122.9248" lat="49.2011" />
+<vertex long="-122.9209" lat="49.2003" />
+<vertex long="-122.9153" lat="49.1999" />
+<vertex label="New Westminster" long="-122.9129" lat="49.2014"
+    markerzoom="10" labelzoom="11"
+    labelwidth="69" labelheight="20"
+    labellocation="br">
+    <bus label="106" />
+    <bus label="112" />
+    <bus label="123" />
+    <bus label="321" type="rush" />
+    <bus label="N19" type="night" />
+    <bus label="C3" />
+    <bus label="C4" />
+    <bus label="C9" />
+</vertex>
+<vertex label="Columbia" long="-122.9062" lat="49.2047"
+    markerzoom="11" labelzoom="13"
+    labelwidth="51" labelheight="11"
+    labellocation="br">
+    <bus label="C3" />
+    <bus label="C4" />
+    <bus label="C9" />
+</vertex>
+<vertex long="-122.9033" lat="49.2063" />
+<vertex long="-122.9013" lat="49.2065" id="branch" />
+<!-- branch -->
+<vertex long="-122.8888" lat="49.2035" />
+<vertex long="-122.8841" lat="49.2033" />
+<vertex label="Scott Road" long="-122.8748" lat="49.2044"
+    markerzoom="11" labelzoom="12"
+    labelwidth="64" labelheight="11"
+    labellocation="b"
+    bikelockers="1" parkandride="1">
+    <bus label="312" />
+    <bus label="314" type="night" />
+    <bus label="319" />
+    <bus label="321" type="rush" />
+    <bus label="391" type="rush" />
+    <bus label="640" />
+    <bus label="C71" />
+    <bus label="N19" type="night" />
+</vertex>
+<vertex long="-122.8704" lat="49.2050" />
+<vertex long="-122.8619" lat="49.2070" />
+<vertex long="-122.8593" lat="49.2070" />
+<vertex long="-122.8570" lat="49.2062" />
+<vertex long="-122.8508" lat="49.2020" />
+<vertex label="Gateway" long="-122.8508" lat="49.1989"
+    markerzoom="11" labelzoom="13"
+    labelwidth="50" labelheight="11"
+    labellocation="r">
+    <bus label="335" />
+    <bus label="C71" />
+    <bus label="C73" />
+</vertex>
+<vertex long="-122.8508" lat="49.1944" />
+<vertex long="-122.8481" lat="49.1920" />
+<vertex label="Surrey Central" long="-122.8480" lat="49.1894"
+    markerzoom="10" labelzoom="11"
+    labelwidth="46" labelheight="20"
+    labellocation="br"
+    bikelockers="1">
+    <bus label="96" type="bline" />
+    <bus label="314" />
+    <bus label="316" />
+    <bus label="320" />
+    <bus label="321" />
+    <bus label="323" />
+    <bus label="324" />
+    <bus label="325" />
+    <bus label="326" />
+    <bus label="329" type="rush" />
+    <bus label="335" />
+    <bus label="337" />
+    <bus label="393" type="rush" />
+    <bus label="501" />
+    <bus label="502" />
+    <bus label="503" />
+    <bus label="509" type="rush" />
+    <bus label="C71" />
+    <bus label="C73" />
+    <bus label="N19" type="night" />
+</vertex>
+<vertex long="-122.8481" lat="49.1885" />
+<vertex long="-122.8472" lat="49.1872" />
+<vertex long="-122.8471" lat="49.1839" />
+<vertex label="King George" long="-122.8449" lat="49.1828"
+    markerzoom="11" labelzoom="13"
+    labelwidth="66" labelheight="11"
+    labellocation="r"
+    bikelockers="1" parkandride="1">
+    <bus label="96" type="bline" />
+    <bus label="314" />
+    <bus label="321" />
+    <bus label="326" />
+    <bus label="329" type="rush" />
+    <bus label="345" type="night" />
+    <bus label="394" type="rush" />
+    <bus label="395" type="rush" />
+    <bus label="502" />
+    <bus label="503" />
+</vertex>
+</route>

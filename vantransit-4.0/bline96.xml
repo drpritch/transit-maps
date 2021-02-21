@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+
+<route label="96 B-Line" type="bline" colour="#f68e1e" width="8">
+<vertex label="Guildford Exchange" long="-122.8031" lat="49.1915"
+    markerzoom="10" labelzoom="12"
+    labelwidth="58" labelheight="20"
+    labellocation="t" />
+    />
+<vertex label="148th St" long="-122.8124" lat="49.1915"
+    markerzoom="12" labelzoom="14"
+    labelwidth="42" labelheight="11"
+    labellocation="t" />
+<vertex label="144th St" long="-122.8231" lat="49.1915"
+    markerzoom="11" labelzoom="13"
+    labelwidth="42" labelheight="11"
+    labellocation="t" />
+<vertex label="140th St" long="-122.8341" lat="49.1915"
+    markerzoom="12" labelzoom="14"
+    labelwidth="42" labelheight="11"
+    labellocation="t" />
+<vertex label="Whalley" long="-122.8419" lat="49.1915"
+    markerzoom="11" labelzoom="13"
+    labelwidth="49" labelheight="11"
+    labellocation="t" />
+<vertex long="-122.8477" lat="49.1915" />
+<vertex label="Surrey Central" long="-122.8477" lat="49.1897"
+    markerzoom="15" labelzoom="-1" />
+<vertex long="-122.8477" lat="49.1878" />
+<vertex long="-122.8455" lat="49.1878" />
+<vertex label="King George" long="-122.8455" lat="49.1831"
+    markerzoom="15" labelzoom="-1" />
+<vertex label="96th Ave" long="-122.8458" lat="49.1770"
+    markerzoom="11" labelzoom="13"
+    labelwidth="46" labelheight="11"
+    labellocation="bl" />
+<vertex label="88th Ave" long="-122.8458" lat="49.1627"
+    markerzoom="12" labelzoom="14"
+    labelwidth="46" labelheight="11"
+    labellocation="bl" />
+<vertex label="80th Ave" long="-122.8458" lat="49.1481"
+    markerzoom="11" labelzoom="13"
+    labelwidth="46" labelheight="11"
+    labellocation="bl" />
+<vertex label="76th Ave" long="-122.8457" lat="49.1408"
+    markerzoom="12" labelzoom="14"
+    labelwidth="46" labelheight="11"
+    labellocation="bl" />
+<vertex long="-122.8457" lat="49.133526" />
+<vertex label="Newton Exchange" long="-122.8414" lat="49.1334"
+    markerzoom="10" labelzoom="11"
+    labelwidth="55" labelheight="20"
+    labellocation="b" />
+</route>

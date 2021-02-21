@@ -1,0 +1,38 @@
+Driver: VRT/Virtual Raster
+Files: milton_400_SM.vrt
+       milton_400_SM.tif
+Size is 6012, 6076
+Coordinate System is:
+PROJCS["WGS 84 / Pseudo-Mercator",
+    GEOGCS["WGS 84",
+        DATUM["WGS_1984",
+            SPHEROID["WGS 84",6378137,298.257223563,
+                AUTHORITY["EPSG","7030"]],
+            AUTHORITY["EPSG","6326"]],
+        PRIMEM["Greenwich",0],
+        UNIT["degree",0.0174532925199433],
+        AUTHORITY["EPSG","4326"]],
+    PROJECTION["Mercator_1SP"],
+    PARAMETER["central_meridian",0],
+    PARAMETER["scale_factor",1],
+    PARAMETER["false_easting",0],
+    PARAMETER["false_northing",0],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs"],
+    AUTHORITY["EPSG","3857"]]
+Origin = (-8897512.639533037319779,5397004.139389298856258)
+Pixel Size = (2.067156958748038,-2.067156958748038)
+Corner Coordinates:
+Upper Left  (-8897512.640, 5397004.139) ( 79d55'39.78"W, 43d33'21.99"N)
+Lower Left  (-8897512.640, 5384444.094) ( 79d55'39.78"W, 43d28'27.43"N)
+Upper Right (-8885084.892, 5397004.139) ( 79d48'57.87"W, 43d33'21.99"N)
+Lower Right (-8885084.892, 5384444.094) ( 79d48'57.87"W, 43d28'27.43"N)
+Center      (-8891298.766, 5390724.117) ( 79d52'18.82"W, 43d30'54.76"N)
+Band 1 Block=128x128 Type=Byte, ColorInterp=Red
+  Mask Flags: PER_DATASET ALPHA 
+Band 2 Block=128x128 Type=Byte, ColorInterp=Green
+  Mask Flags: PER_DATASET ALPHA 
+Band 3 Block=128x128 Type=Byte, ColorInterp=Blue
+  Mask Flags: PER_DATASET ALPHA 
+Band 4 Block=128x128 Type=Byte, ColorInterp=Alpha

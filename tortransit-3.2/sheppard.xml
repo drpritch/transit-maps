@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<route label="Sheppard Line" type="subway" colour="#cc0000" width="8"
+    operator="ttc" opacity="1.0">
+<vertex label="Sheppard-Yonge" long="-79.4104" lat="43.7616"
+    markerzoom="-1" labelzoom="-1"
+    labelwidth="53" labelheight="20"
+    labellocation="r" 
+    address="4800 Yonge St."
+    url="http://www3.ttc.ca/Subway/Stations/Sheppard-Yonge/station.jsp"
+    washroom="1" elevator="1" marker="interchange" />
+<vertex long="-79.3883" lat="43.7663" />
+<vertex label="Bayview" long="-79.3880" lat="43.7665"
+    markerzoom="11" labelzoom="13"
+    labelwidth="46" labelheight="11"
+    labellocation="t"
+    address="550 Sheppard Ave. E"
+    url="http://www3.ttc.ca/Subway/Stations/Bayview/station.jsp"
+    elevator="1" transfer="1" />
+<vertex long="-79.3866" lat="43.7669" />
+<vertex label="Bessarion" long="-79.3767" lat="43.7690"
+    markerzoom="11" labelzoom="13"
+    labelwidth="52" labelheight="11"
+    labellocation="t"
+    address="701 Sheppard Ave. E"
+    url="http://www3.ttc.ca/Subway/Stations/Bessarion/station.jsp"
+    elevator="1" transfer="1" />
+<vertex long="-79.3663" lat="43.7712" />
+<vertex label="Leslie" long="-79.3641" lat="43.7715"
+    markerzoom="10" labelzoom="12"
+    labelwidth="29" labelheight="11"
+    labellocation="t"
+    address="1209 Sheppard Ave. E"
+    url="http://www3.ttc.ca/Subway/Stations/Leslie/station.jsp"
+    marker="interchange" elevator="1" metropassparking="1" />
+<vertex long="-79.3612" lat="43.7718" />
+<vertex label="Don Mills" long="-79.3472" lat="43.7749"
+    markerzoom="10" labelzoom="11"
+    labelwidth="52" labelheight="11"
+    labellocation="t"
+    address="1700 Sheppard Ave. E"
+    url="http://www3.ttc.ca/Subway/Stations/Don_Mills/station.jsp"
+    elevator="1" washroom="1" cashparking="1" />
+</route>

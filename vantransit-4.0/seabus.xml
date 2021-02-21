@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<route label="SeaBus" type="seabus" colour="#7e6a62" width="8">
+<vertex label="Waterfront" long="-123.1090" lat="49.2871"
+    markerzoom="14" labelzoom="15"
+    labelwidth="68" labelheight="11" 
+    labellocation="tl" />
+<vertex label="Lonsdale Quay" long="-123.0842" lat="49.3094"
+    markerzoom="10" labelzoom="11"
+    labelwidth="79" labelheight="11"
+    labellocation="t">
+    <bus label="228" />
+    <bus label="229" />
+    <bus label="230" />
+    <bus label="231" type="rush" />
+    <bus label="236" />
+    <bus label="239" />
+    <bus label="242" type="night" />
+    <bus label="246" />
+    <bus label="N24" type="night" />
+</vertex>
+</route>

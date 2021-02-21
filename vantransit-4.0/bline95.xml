@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+
+<route label="95 B-Line" type="bline" colour="#f68e1e" width="8">
+<vertex label="Burrard" long="-123.1200" lat="49.2855"
+    markerzoom="15" labelzoom="99" />
+<vertex long="-123.1161" lat="49.2839" />
+<vertex label="Granville" long="-123.1139" lat="49.2853"
+    markerzoom="12" labelzoom="14"
+    labelwidth="52" labelheight="11"
+    labellocation="b" />
+<vertex label="Cambie" long="-123.1095" lat="49.2825"
+    markerzoom="12" labelzoom="14"
+    labelwidth="37" labelheight="11"
+    labellocation="t" />
+<vertex long="-123.1038" lat="49.2814" />
+<vertex label="Main" long="-123.0997" lat="49.2813"
+    markerzoom="11" labelzoom="13"
+    labelwidth="28" labelheight="11"
+    labellocation="b" />
+<vertex long="-123.0799" lat="49.2810" />
+<vertex long="-123.0777" lat="49.2813" />
+<vertex label="Commercial" long="-123.0704" lat="49.2812"
+    markerzoom="11" labelzoom="13"
+    labelwidth="64" labelheight="11"
+    labellocation="t" />
+<vertex label="Nanaimo" long="-123.0566" lat="49.2812"
+    markerzoom="11" labelzoom="13"
+    labelwidth="48" labelheight="11"
+    labellocation="b" />
+<vertex label="Renfrew" long="-123.0441" lat="49.2811"
+    markerzoom="11" labelzoom="13"
+    labelwidth="48" labelheight="11"
+    labellocation="t" />
+<vertex label="Kootenay Loop" long="-123.0255" lat="49.2811"
+    markerzoom="11" labelzoom="13"
+    labelwidth="84" labelheight="11"
+    labellocation="b" />
+<vertex label="Gilmore" long="-123.0142" lat="49.2811"
+    markerzoom="11" labelzoom="13"
+    labelwidth="43" labelheight="11"
+    labellocation="t" />
+<vertex label="Willingdon" long="-123.0031" lat="49.2810"
+    markerzoom="11" labelzoom="13"
+    labelwidth="64" labelheight="11"
+    labellocation="b" />
+<vertex long="-122.9944" lat="49.2810" />
+<vertex long="-122.9916" lat="49.2801" />
+<vertex label="Hythe" long="-122.9904" lat="49.2802"
+    markerzoom="11" labelzoom="13"
+    labelwidth="35" labelheight="11"
+    labellocation="t" />
+<vertex long="-122.9880" lat="49.2804" />
+<vertex label="Holdom" long="-122.9809" lat="49.2803"
+    markerzoom="11" labelzoom="13"
+    labelwidth="45" labelheight="11"
+    labellocation="t" />
+<vertex label="Kensington" long="-122.9700" lat="49.2804"
+    markerzoom="11" labelzoom="13"
+    labelwidth="64" labelheight="11"
+    labellocation="b" />
+<vertex long="-122.9636" lat="49.2803" />
+<vertex long="-122.9604" lat="49.2802" />
+<vertex long="-122.9578" lat="49.2804" />
+<vertex label="Duthie" long="-122.9534" lat="49.2804"
+    markerzoom="11" labelzoom="13"
+    labelwidth="38" labelheight="11"
+    labellocation="t" />
+<vertex long="-122.9509" lat="49.2803" />
+<vertex long="-122.9427" lat="49.2756" />
+<vertex long="-122.9344" lat="49.2739" />
+<vertex long="-122.9269" lat="49.2735" />
+<vertex long="-122.9257" lat="49.2735" />
+<vertex long="-122.9303" lat="49.2760" />
+<vertex long="-122.9304" lat="49.2768" />
+<vertex long="-122.9296" lat="49.2772" />
+<vertex long="-122.9257" lat="49.2770" />
+<vertex long="-122.9213" lat="49.2777" />
+<vertex long="-122.9207" lat="49.2782" />
+<vertex long="-122.9205" lat="49.2790" />
+<vertex long="-122.9200" lat="49.2795" />
+<vertex label="SFU Transportation Centre" long="-122.9202" lat="49.2798"
+    markerzoom="12" labelzoom="14"
+    labelwidth="89" labelheight="29"
+    labellocation="l" />
+<vertex long="-122.9200" lat="49.2801" />
+<vertex long="-122.9191" lat="49.2801" />
+<vertex long="-122.9174" lat="49.2807" />
+<vertex long="-122.9146" lat="49.2809" />
+<vertex long="-122.9115" lat="49.2806" />
+<vertex long="-122.9108" lat="49.2804" />
+<vertex long="-122.9107" lat="49.2802" />
+<vertex long="-122.9121" lat="49.2793" />
+<vertex long="-122.9123" lat="49.2788" />
+<vertex label="SFU Exchange" long="-122.9130" lat="49.2786"
+    markerzoom="10" labelzoom="11"
+    labelwidth="55" labelheight="20"
+    labellocation="r" />
+</route>
+

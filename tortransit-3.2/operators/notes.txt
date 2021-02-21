@@ -1,0 +1,196 @@
+METHOD
+- Gimp used to convert PDFs to PNGs
+- Quantum GIS georeferencing tool used to identify geographic reference
+  system of PNGs, create Geotiffs
+- Gdalwarp used to convert Geotiffs to straight UTM 17N rasters
+- Gdalwarp used to convert Geotiffs to desired final format (WGS84 or
+  other)
+- Gdalwarp used to "mosaic" - layer Geotiffs in final format
+
+UPDATE 2016
+- Many updated at different dpi from original
+- Had to do PDF-to-PNG conversion with Preview for many
+
+PROCESS
+
+1) Do georeferencing at 1x dpi with UTM 17N co-ords
+2) Use QGIS to get gdalwarp command line options for UTM17N destination
+3) Modify gdalwarp command line to use -ts switch to force to 2x
+   resolution
+4) Then do a gdalwarp to WGS84 (EPSG:4326), still at 2x resolution
+5) Then use gimp to build a .5x resolution.
+6) Geotag the gimp file by building a VRT of the original file, and editing
+the pixel size (2x larger) and image size (2x smaller)
+7) Then do a gdalwarp to layer on top of each other.
+   Simultaneously does a downsampling by about 0.4x.
+   Appalling quality.
+   e.g., Milton - 5960x4600 after step 4, 1720x1324 after step 7.
+   e.g., Oakville - 8960x6944 after step 4 3518x2806 after step 7
+
+I essentially upsample by 2x in the first gdalwarp, continue to warp in
+that upsampled 1-pixel-radius-noise space, and then downsample by 2x. This
+imitates a 2x supersampling, with decent results.
+
+Steps #5 and #6 are only really necessary for Milton and Hamilton. They
+help a little with Oakville and Durham also. It's mostly needed when
+there's really fine text present.
+
+
+
+IMAGE DPIs
+- TTC: 400 dpi
+- Mississauga: 200 dpi
+- Brampton: 175 dpi
+- York: 350 dpi
+  - Ommitted: Keswick & Sutton/Petterlaw insets; terminal blowups
+- Durham West: 150 dpi
+- Durham East: 200 dpi
+- Durham Clarington: 200 dpi
+  - Omitted: Scugog, Uxbridge, Beaverton, and Oshawa downtown blowup
+- Oakville: 200 dpi
+- Burlington: 425 dpi
+- Hamilton: 175 dpi
+  - Omitted: Mount Hope inset and downtown/terminal blowups
+- Milton: 400 dpi (vague guess)
+
+
+GEOREFERENCING - REFERENCE POINTS
+
+Conversion to UTM 17N done with this website:
+  http://www.rcn.montana.edu/resources/tools/coordinates.aspx
+
+Toronto
+0) Front & Spadina:
+   43o38'33.22" N   79o23'38.17" W     = 629536 E  4833427 N
+1) McKee & Estelle (near Finch & Bayview)
+   43o46'38.26" N   79o23'38.07" W     = 629248 E  4848391 N
+2) Burnhamthorpe & Saturn
+   43o38'33.26" N   79o34'33.07" W     = 614864 E  4833161 N
+3) Albion & Carrier
+   43o44'43.77" N   79o36'51.32" W     = 611575 E  4844539 N
+4) Eglinton eastern tip
+   43o44'41.32" N   79o12'41.67" W     = 644000 E  4845085 N
+5) Fourtieth St. & James St. (Etobicoke)
+   43o35'25.24" N   79o32'26.29" W     = 617806 E  4827410 N
+Mississauga
+6) Clarkson Rd. N & Mazo Crescent
+   43o31'31.02" N   79o38'05.42" W     = 610320 E  4820055 N
+7) Second Line & Old Derry Rd.
+   43o37'37.27" N   79o43'39.95" W     = 
+8) Irish Moss Rd. & Appletree Lane
+   43o37'52.94" N   79o43'47.88" W     = 602453 E  4831715 N
+9) Lucknow Dr. & Firtree Dr.
+   43o41'31.98" N   79o39'33.71" W     = 608039 E  4838562 N
+Brampton
+10)Clarence St. & Haselmere Ave.
+   43o41'07.31" N   79o44'47.30" W     = 601030 E  4837691 N
+11)Clarkway & Castlemore
+   43o48'04.70" N   79o40'44.34" W     = 606265 E  4850653 N
+12) Cinguacousy Rd. & Wanless Dr.
+   43o42'21.99" N   79o50'07.12" W     = 593838 E  4839891 N
+13) Rutherford Rd. & Highway 50
+   43o48'10.85" N   79o40'09.02" W     = 607051 E  4850855 N
+York
+14) Steeles & Reesor (southern leg)
+   43o50'53.55" N   79o12'01.91" W     = 644639 E  4856588 N
+15) Avenue Rd. & Carville
+   43o51'01.48" N   79o26'43.06" W     = 624961 E  4856433 N
+16) 10th Line & Main St. (Stouffville)
+   43o58'28.64" N   79o13'55.60" W     = 641800 E  4870573 N
+17) Bathurst & Kennedy St. W
+   43o59'20.71" N   79o29'35.29" W     = 620834 E  4871764 N
+18) Elizabeth St. & Centre St.
+   44o08'04.55" N   79o18'28.42" W     = 635689 E  4888215 N
+19) Waratah Ave. (Huron Heights) & Elgin St.
+   44o04'17.84" N   79o26'33.17" W     = 624718 E  4881007 N
+Durham West
+20) Toynevale Rd. & Lytton Ct.
+   43o48'21.25" N   79o07'44.38" W     = 650496 E  4852017 N
+21) Altona & Taunton
+   43o51'32.67" N   79o09'16.69" W     = 648301 E  4857876 N
+22) Lakeridge & Victoria St.
+   43o51'09.58" N   78o58'43.95" W     = 662444 E  4857494 N
+23) Lakeridge & Winchester
+   43o56'24.85" N   79o01'00.88" W     = 659153 E  4867147 N
+24) Sandy Beach Rd. & Alyssum St.
+   43o49'27.89" N   79o04'28.45" W     = 654825 E  4854173 N
+Durham East
+25) Victoria St. W & Seaboard Gate / Jeffrey St.
+   43o51'22.75" N   78o57'12.49" W     = 664476 E  4857950 N
+26) Ashburn Rd. & Columbus Rd.
+   43o57'59.37" N   78o58'47.52" W     = 662055 E  4870135 N
+27) Bloor St. & Trulls Rd. (south leg)
+   43o53'41.38" N   78o46'52.99" W     = 678191 E  4862584 N
+28) Concession Rd. 6 / Conlin Rd. E & Town Line Rd.
+   43o57'40.64" N   78o50'15.10" W     = 673489 E  4869847 N
+29) Gibb St. & Simcoe St.
+   43o53'25.83" N   78o51'37.29" W     = 671861 E  4861937 N
+Durham Clarington
+30) Regional Road 57 & Baseline Rd.
+   43o53'51.73" N   78o41'27.15" W     = 685452 E  4863103 N
+31) Liberty St. & Taunton Rd.
+   43o58'20.67" N   78o42'29.12" W     = 683839 E  4871362 N
+32) Edward St. & Mill St.
+   43o54'51.63" N   78o35'14.69" W     = 693707 E  4865189 N
+33) Main St. & Taunton Rd.
+   43o59'25.46" N   78o37'23.90" W     = 690582 E  4873553 N
+
+Oakville
+34) Lakeshore & Birkbank Dr.
+   43o28'52.84" N   79o37'47.08" W     = 610812 E  4815182 N
+35) Burhamthorpe & Trafalgar
+   43o30'05.94" N   79o44'17.51" W     = 602007 E  4817298 N
+36) Hixon St. & Jones St.
+   43o23'53.18" N   79o42'51.37" W     = 604119 E  4805828 N
+37) Valleyridge Dr. & Stornoway Cr.
+   43o25'55.04" N   79o46'40.47" W     = 598910 E  4809510 N
+38) Trafalgar & Macdonald
+   43o27'09.55" N   79o40'36.47" W     = 607058 E  4811935 N
+38b) Redbud Ave. & Privet Pl.
+   43o29'56.28" N   79o39'12.67" W     = 608858 E  4817107 N
+38c) Neyagawa & Munns
+   43o27'40.66" N   79o43'20.89" W     = 603348 E  4812836 N
+38d) Ferncrest & Lindhurst
+   43o30'10.10" N   79o42'04.22" W     = 604998 E  4817472 N
+38e) Livery Ln. & Lumberman Ln.
+   43o26'07.44" N   79o44'38.29" W     = 601652 E  4809933 N
+... but Oakville just don't work. Some kind of messed up projection or
+other.
+
+
+Burlington
+39) Lakeshore & Appleby
+   43o21'37.26" N   79o44'40.09" W     = 601737 E  4801598 N
+40) Appleby Line & (service road north of thomas alton)
+   43o24'42.67" N   79o48'54.85" W     = 595922 E  4807232 N
+41) Lasalle Park Rd. & Townsend Ave.
+   43o18'16.85" N   79o51'00.00" W     = 593270 E  4795292 N
+42) Hamilton St. N & Cedar St.
+   43o19'59.08" N   79o53'54.35" W     = 589301 E  4798393 N
+43) Prospect & Drury
+   43o20'25.84" N   79o48'02.53" W     = 597212 E  4799328 N
+
+Hamilton
+44) Catherine St. N & Cannon St. E
+   43o15'35.18" N   79o51'47.94" W     = 592258 E  4790290 N
+45) Christie St. & Rymal Rd. W
+   43o12'12.81" N   79o53'50.76" W     = 589572 E  4784010 N
+46) Glover & Highway #8
+   43o12'37.54" N   79o40'57.08" W     = 607019 E  4785025 N
+47) Shaver Rd. & Garner Rd. W
+   43o11'48.52" N   80o00'43.39" W     = 580269 E  4783145 N
+
+Milton
+48) Louis St. Laurent & James Snow Parkway
+    43o31'14.89" N   79o49'17.59" W     = 595238 E  4819326 N
+49) Main St. W & Bronte St. S
+    43o30'30.86" N   79o53'17.19" W     = 589878 E  4817894 N
+50) Steeles Ave. E & Thompson Rd. N
+    43o32'10.09" N   79o52'39.46" W     = 590684 E  4820967 N
+51) Derry Rd. W & Scott Blvd.
+    43o29'31.40" N   79o52'37.71" W     = 590789 E  4816071 N
+
+
+
+- Keep "transparent" on. Won't show up right in gimp, but some special
+  "nodata" tag will stay in document indicating that black=transparent

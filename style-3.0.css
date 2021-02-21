@@ -1,0 +1,79 @@
+v\:* {
+      behavior:url(#default#VML);
+}
+body,html {
+    width: 100%;
+    height: 100%;
+    margin: 0px; padding: 0px;
+    overflow: hidden;
+    font-family: arial, sans-serif;
+}
+#map_canvas {
+    position: absolute;
+    top: 22pt;
+    left: 0; right: 0; bottom: 0;
+    border: 1px solid #979797;
+}
+input#address {
+    color: gray;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* stolen from google local */
+#titlebar {
+    border-top: 1px solid black;
+    background-color:#D5DDF3;
+    width: 100%;
+    margin-bottom: 7px;
+}
+#titlebar .title {
+    font-size: 14pt;
+    font-weight: bold;
+    padding-left: 3px;
+}
+#titlebar .links {
+    font-size: small;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 3px;
+}
+#titlebar .links a {
+    text-decoration: none;
+    white-space: nowrap;
+    padding-left: 0.75em;
+    color: #0000cc;
+}
+#titlebar .links a span {
+    text-decoration: underline;
+}
+#titlebar .links img {
+    border: 0;
+} 
+
+@media only screen and (max-width: 500px) {
+#map_canvas {
+    top: 18pt;
+}
+#titlebar {
+    font-size: 6pt;
+}
+#titlebar .title {
+    display: none;
+}
+#titlebar #address {
+    font-size: 6pt;
+}
+#titlebar #submit {
+    font-size: 6pt;
+}
+#titlebar #linktopage {
+    display: none;
+}
+}

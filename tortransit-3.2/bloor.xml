@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+
+<route label="Bloor-Danforth Line" type="subway" colour="#cc0000" width="8" operator="ttc" opacity="1.0">
+<vertex label="Kipling" long="-79.5359" lat="43.6368"
+    markerzoom="10" labelzoom="11"
+    labelwidth="38" labelheight="11"
+    labellocation="t"
+    address="5247 Dundas St. W"
+    url="http://www3.ttc.ca/Subway/Stations/Kipling/station.jsp"
+    marker="interchange" elevator="1" washroom="1" metropassparking="1" cashparking="1" />
+<vertex long="-79.5275" lat="43.6443" />
+<vertex label="Islington" long="-79.5238" lat="43.6454"
+    markerzoom="12" labelzoom="12"
+    labelwidth="52" labelheight="11"
+    labellocation="t"
+    address="3286 Bloor St. W"
+    url="http://www3.ttc.ca/Subway/Stations/Islington/station.jsp"
+    metropassparking="1" cashparking="1" />
+<vertex label="Royal York" long="-79.5116" lat="43.6480"
+    markerzoom="11" labelzoom="12"
+    labelwidth="62" labelheight="11"
+    labellocation="t"
+    address="3012 Bloor St. W"
+    url="http://www3.ttc.ca/Subway/Stations/Royal_York/station.jsp" />
+<vertex long="-79.4995" lat="43.6505" />
+<vertex label="Old Mill" long="-79.4954" lat="43.6501"
+    markerzoom="12" labelzoom="13"
+    labelwidth="45" labelheight="11"
+    labellocation="t"
+    address="2672 Bloor St. W"
+    url="http://www3.ttc.ca/Subway/Stations/Old_Mill/station.jsp"
+    transfer="1" marker="stop" />
+<vertex long="-79.4895" lat="43.6481" />
+<vertex long="-79.4865" lat="43.6484" />
+<vertex label="Jane" long="-79.4849" lat="43.6496"
+    markerzoom="11" labelzoom="12"
+    labelwidth="26" labelheight="13"
+    labellocation="t"
+    address="2440 Bloor St. W"
+    url="http://www3.ttc.ca/Subway/Stations/Jane/station.jsp"
+    transfer="1" elevator="1" marker="stop" />
+<vertex long="-79.4844" lat="43.6498" />
+<vertex label="Runnymede" long="-79.4762" lat="43.6517"
+    markerzoom="12" labelzoom="13"
+    labelwidth="62" labelheight="11"
+    labellocation="t"
+    address="2218 Bloor St. W"
+    url="http://www3.ttc.ca/Subway/Stations/Runnymede/station.jsp"
+    transfer="1" marker="stop" />
+<vertex label="High Park" long="-79.4668" lat="43.6540"
+    markerzoom="11" labelzoom="12"
+    labelwidth="53" labelheight="11"
+    labellocation="t"
+    address="1874 Bloor St. W"
+    url="http://www3.ttc.ca/Subway/Stations/High_Park/station.jsp"
+    transfer="1" marker="stop" />
+<vertex label="Keele" long="-79.4596" lat="43.6555"
+    markerzoom="12" labelzoom="13"
+    labelwidth="30" labelheight="11"
+    labellocation="t"
+    address="1733 Bloor St. W"
+    url="http://www3.ttc.ca/Subway/Stations/Keele/station.jsp"
+    cashparking="1" />
+<vertex label="Dundas West" long="-79.4531" lat="43.6569"
+    markerzoom="11" labelzoom="12"
+    labelwidth="43" labelheight="20"
+    labellocation="t"
+    address="1525 Bloor St. W"
+    url="http://www3.ttc.ca/Subway/Stations/Dundas_West/station.jsp"
+    marker="interchange" elevator="1" />
+<vertex label="Lansdowne" long="-79.4431" lat="43.6591"
+    markerzoom="12" labelzoom="13"
+    labelwidth="63" labelheight="11"
+    labellocation="t"
+    address="1287 Bloor St. W"
+    url="http://www3.ttc.ca/Subway/Stations/Lansdowne/station.jsp"
+    transfer="1" marker="stop" />
+<vertex label="Dufferin" long="-79.4357" lat="43.6608"
+    markerzoom="11" labelzoom="12"
+    labelwidth="47" labelheight="11"
+    labellocation="t"
+    address="1126 Bloor St. W"
+    url="http://www3.ttc.ca/Subway/Stations/Dufferin/station.jsp"
+    transfer="1" elevator="1" marker="stop" />
+<vertex label="Ossington" long="-79.4261" lat="43.6630"
+    markerzoom="12" labelzoom="13"
+    labelwidth="58" labelheight="11"
+    labellocation="t"
+    address="883 Bloor St. W"
+    url="http://www3.ttc.ca/Subway/Stations/Ossington/station.jsp"
+    elevator="1" />
+<vertex label="Christie" long="-79.4187" lat="43.6647"
+    markerzoom="11" labelzoom="13"
+    labelwidth="43" labelheight="11"
+    labellocation="t"
+    address="726 Bloor St. W" 
+    transfer="1" marker="stop" />
+<vertex label="Bathurst" long="-79.4116" lat="43.6663"
+    markerzoom="12" labelzoom="13"
+    labelwidth="51" labelheight="11"
+    labellocation="t"
+    address="565 Bloor St. W" 
+    url="http://www3.ttc.ca/Subway/Stations/Bathurst/station.jsp"
+    elevator="1" />
+<vertex label="Spadina" long="-79.4042" lat="43.6678"
+    markerzoom="12" labelzoom="12"
+    labelwidth="43" labelheight="11"
+    labellocation="b"
+    address="371 Bloor St. W" 
+    url="http://www3.ttc.ca/Subway/Stations/Spadina/station.jsp"
+    elevator="1" marker="interchange" />
+<vertex label="St. George" long="-79.3981" lat="43.6691"
+    markerzoom="-1" labelzoom="-1"
+    labelwidth="56" labelheight="11"
+    labellocation="t"
+    address="323 Bloor St. W"
+    url="http://www3.ttc.ca/Subway/Stations/St_George/station.jsp"
+    elevator="1" marker="interchange" />
+<vertex label="Bay" long="-79.3911" lat="43.6707"
+    markerzoom="12" labelzoom="13"
+    labelwidth="22" labelheight="11"
+    labellocation="t"
+    address="64 Bloor St. W"
+    url="http://www3.ttc.ca/Subway/Stations/Bay/station.jsp"
+    transfer="1" marker="stop" />
+<vertex long="-79.3907" lat="43.6708" />
+<vertex label="Bloor-Yonge" long="-79.3868" lat="43.6713"
+    markerzoom="-1" labelzoom="-1"
+    labelwidth="39" labelheight="20"
+    labellocation="r" 
+    address="35 Bloor St. / 733 Yonge St."
+    url="http://www3.ttc.ca/Subway/Stations/Bloor-Yonge/station.jsp"
+    transfer="1" marker="interchange" elevator="1" washroom="1" />
+<vertex long="-79.3851" lat="43.6712" />
+<vertex long="-79.3821" lat="43.6715" />
+<vertex label="Sherbourne" long="-79.3766" lat="43.6718"
+    markerzoom="12" labelzoom="13"
+    labelwidth="64" labelheight="11"
+    labellocation="t" 
+    address="420 Bloor St. E"
+    url="http://www3.ttc.ca/Subway/Stations/Sherbourne/station.jsp"
+    transfer="1" marker="stop" />
+<vertex long="-79.3708" lat="43.6724" />
+<vertex label="Castle Frank" long="-79.3689" lat="43.6736"
+    markerzoom="11" labelzoom="13"
+    labelwidth="70" labelheight="11"
+    labellocation="t" 
+    address="600 Bloor St. E"
+    url="http://www3.ttc.ca/Subway/Stations/Castle_Frank/station.jsp" />
+<vertex long="-79.3665" lat="43.6751" />
+<vertex long="-79.3630" lat="43.6761" />
+<vertex label="Broadview" long="-79.3587" lat="43.6770"
+    markerzoom="11" labelzoom="12"
+    labelwidth="59" labelheight="11"
+    labellocation="t" 
+    address="90 Danforth Ave."
+    url="http://www3.ttc.ca/Subway/Stations/Broadview/station.jsp" 
+    elevator="1" />
+<vertex label="Chester" long="-79.3523" lat="43.6782"
+    markerzoom="12" labelzoom="13"
+    labelwidth="43" labelheight="11"
+    labellocation="t" 
+    address="370 Danforth Ave."
+    url="http://www3.ttc.ca/Subway/Stations/Chester/station.jsp" />
+<vertex label="Pape" long="-79.3452" lat="43.6795"
+    markerzoom="11" labelzoom="12"
+    labelwidth="25" labelheight="11"
+    labellocation="t" 
+    address="650 Danforth Ave."
+    url="http://www3.ttc.ca/Subway/Stations/Pape/station.jsp" elevator="1" />
+<vertex label="Donlands" long="-79.3378" lat="43.6810"
+    markerzoom="12" labelzoom="13"
+    labelwidth="56" labelheight="11"
+    labellocation="t" 
+    address="990 Danforth Ave."
+    url="http://www3.ttc.ca/Subway/Stations/Donlands/station.jsp" />
+<vertex label="Greenwood" long="-79.3309" lat="43.6825"
+    markerzoom="11" labelzoom="13"
+    labelwidth="66" labelheight="11"
+    labellocation="t" 
+    address="1177 Danforth Ave."
+    url="http://www3.ttc.ca/Subway/Stations/Greenwood/station.jsp" />
+<vertex label="Coxwell" long="-79.3230" lat="43.6841"
+    markerzoom="12" labelzoom="12"
+    labelwidth="49" labelheight="11"
+    labellocation="t" 
+    address="1568 Danforth Ave."
+    url="http://www3.ttc.ca/Subway/Stations/Coxwell/station.jsp" />
+<vertex label="Woodbine" long="-79.3127" lat="43.6865"
+    markerzoom="11" labelzoom="13"
+    labelwidth="57" labelheight="11"
+    labellocation="t" 
+    address="2072 Danforth Ave."
+    url="http://www3.ttc.ca/Subway/Stations/Woodbine/station.jsp"
+    elevator="1" />
+<vertex label="Main Street" long="-79.3021" lat="43.6892"
+    markerzoom="10" labelzoom="12"
+    labelwidth="36" labelheight="20"
+    labellocation="t" 
+    address="2550 Danforth Ave."
+    url="http://www3.ttc.ca/Subway/Stations/Main_Street/station.jsp"
+    marker="interchange" elevator="1" />
+<vertex long="-79.2958" lat="43.6908" />
+<vertex long="-79.2904" lat="43.6943" />
+<vertex label="Victoria Park" long="-79.2885" lat="43.6949"
+    markerzoom="11" labelzoom="12"
+    labelwidth="74" labelheight="11"
+    labellocation="t" 
+    address="777 Victoria Park Ave."
+    url="http://www3.ttc.ca/Subway/Stations/Victoria_Park/station.jsp"
+    metropassparking="1" elevator="1" />
+<vertex long="-79.2827" lat="43.6972" />
+<vertex long="-79.2809" lat="43.6995" />
+<vertex label="Warden" long="-79.2790" lat="43.7111"
+    markerzoom="11" labelzoom="12"
+    labelwidth="47" labelheight="11"
+    labellocation="t" 
+    address="3276 St. Clair Ave. E"
+    url="http://www3.ttc.ca/Subway/Stations/Warden/station.jsp"
+    washroom="1" metropassparking="1" cashparking="1" />
+<vertex long="-79.2783" lat="43.7156" />
+<vertex long="-79.2748" lat="43.7232" />
+<vertex long="-79.2675" lat="43.7311" />
+<vertex label="Kennedy" long="-79.2636" lat="43.7324"
+    markerzoom="10" labelzoom="11"
+    labelwidth="49" labelheight="11"
+    labellocation="t" 
+    address="2455 Eglinton Ave. E"
+    url="http://www3.ttc.ca/Subway/Stations/Kennedy/station.jsp"
+    elevator="1" washroom="1" metropassparking="1" cashparking="1"
+    marker="interchange" />
+</route>

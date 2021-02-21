@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+
+<route label="Milton" type="gotrain" colour="#31b252" width="8"
+    defaultstop="gostop" operator="gotransit" opacity="1.0">
+<vertex label="Union Station" lat="43.6448" long="-79.3796"
+    markerzoom="-1" labelzoom="-1"
+    address="55 Front St. W"
+    url="http://gotransit.com/publicroot/en/travelling/stations.aspx?station=USTN"
+    marker="interchange" accessible="1" />
+<vertex lat="43.6400" long="-79.4049" />
+<vertex lat="43.6410" long="-79.4253" />
+<vertex lat="43.6479" long="-79.4401" />
+<vertex lat="43.6498" long="-79.4430" />
+<vertex lat="43.6656" long="-79.4587" />
+<vertex lat="43.6669" long="-79.4607" />
+<vertex lat="43.6673" long="-79.4633" />
+<vertex lat="43.6674" long="-79.4719" />
+<vertex lat="43.6654" long="-79.5066" />
+<vertex lat="43.6643" long="-79.5101" />
+<vertex lat="43.6587" long="-79.5170" />
+<vertex lat="43.6500" long="-79.5204" />
+<vertex label="Kipling" lat="43.6373" long="-79.5354"
+    markerzoom="12" labelzoom="-1"
+    labelwidth="38" labelheight="11" labellocation="r"
+    address="27 St. Albans Rd."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=KPGO"
+    />
+<vertex label="Dixie" lat="43.6074" long="-79.5781"
+    markerzoom="10" labelzoom="10"
+    labelwidth="28" labelheight="11" labellocation="t"
+    address="2445 Dixie Rd."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=DXGO"
+    washroom="1" accessible="1" cashparking="1" />
+<vertex lat="43.5923" long="-79.6012" />
+<vertex lat="43.5887" long="-79.6169" />
+<vertex label="Cooksville" lat="43.5832" long="-79.6240"
+    markerzoom="9" labelzoom="10"
+    labelwidth="59" labelheight="11" labellocation="t"
+    address="3210 Hurontario St."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=CKGO"
+    washroom="1" accessible="1" cashparking="1" />
+<vertex lat="43.5722" long="-79.6371" />
+<vertex lat="43.5649" long="-79.6562" />
+<vertex label="Erindale" lat="43.5671" long="-79.6692"
+    markerzoom="10" labelzoom="10"
+    labelwidth="49" labelheight="11" labellocation="t"
+    address="1310 Rathburn Rd. W"
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=ERGO"
+    washroom="1" accessible="1" cashparking="1" />
+<vertex lat="43.5684" long="-79.6752" />
+<vertex lat="43.5684" long="-79.6752" />
+<vertex lat="43.5770" long="-79.6919" />
+<vertex lat="43.5772" long="-79.6940" />
+<vertex lat="43.5747" long="-79.7031" />
+<vertex lat="43.5749" long="-79.7061" />
+<vertex label="Streetsville" lat="43.5760" long="-79.7087"
+    markerzoom="9" labelzoom="10"
+    labelwidth="61" labelheight="11" labellocation="t"
+    address="45 Thomas St."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=STGO"
+    washroom="1" accessible="1" cashparking="1" />
+<vertex lat="43.5773" long="-79.7113" />
+<vertex lat="43.5832" long="-79.7194" />
+<vertex lat="43.5895" long="-79.7253" />
+<vertex label="Meadowvale" lat="43.5978" long="-79.7542"
+    markerzoom="9" labelzoom="10"
+    labelwidth="69" labelheight="11" labellocation="t"
+    address="6845 Millcreek Dr."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=MDGO"
+    washroom="1" accessible="1" cashparking="1" />
+<vertex lat="43.6000" long="-79.7624" />
+<vertex lat="43.5976" long="-79.7783" />
+<vertex lat="43.5960" long="-79.7823" />
+<vertex label="Lisgar" lat="43.5918" long="-79.7870"
+    markerzoom="9" labelzoom="10"
+    labelwidth="34" labelheight="11" labellocation="t"
+    address="3250 Argentia Rd."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=LGGO"
+    accessible="1" cashparking="1" />
+<vertex lat="43.5265" long="-79.8590" />
+<vertex label="Milton" lat="43.5232" long="-79.8674"
+    markerzoom="9" labelzoom="9"
+    labelwidth="39" labelheight="11" labellocation="t"
+    address="780 Main St. E"
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=MNGO"
+    washroom="1" accessible="1" cashparking="1" />
+</route>

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+
+<route label="99 B-Line" type="bline" colour="#f68e1e" width="8">
+<vertex label="UBC Loop" long="-123.2491" lat="49.2658"
+    markerzoom="10" labelzoom="11"
+    labelwidth="50" labelheight="11"
+    labellocation="l">
+    <bus label="4" />
+    <bus label="9" type="rush" />
+    <bus label="14" />
+    <bus label="25" />
+    <bus label="33" />
+    <bus label="41" />
+    <bus label="43" type="rush" />
+    <bus label="44" type="rush" />
+    <bus label="49" type="rush" />
+    <bus label="99" type="bline" />
+    <bus label="258" type="rush" />
+    <bus label="480" type="rush" />
+    <bus label="C19" type="rush"/>
+    <bus label="C20" />
+    <bus label="C22" />
+    <bus label="N17" type="night" />
+</vertex>
+<vertex long="-123.2456" lat="49.2664" />
+<vertex label="Allison Road" long="-123.2423" lat="49.2669"
+    markerzoom="12" labelzoom="14"
+    labelwidth="71" labelheight="11"
+    labellocation="t" />
+<vertex long="-123.2390" lat="49.2669" />
+<vertex long="-123.2369" lat="49.2663" />
+<vertex long="-123.2336" lat="49.2644" />
+<vertex long="-123.2319" lat="49.2637" />
+<vertex long="-123.2305" lat="49.2635" />
+<vertex long="-123.2152" lat="49.2639" />
+<vertex label="Sasamat" long="-123.2091" lat="49.2638"
+    markerzoom="12" labelzoom="13"
+    labelwidth="45" labelheight="11"
+    labellocation="t" />
+<vertex long="-123.1857" lat="49.2633" />
+<vertex label="Alma" long="-123.1857" lat="49.2639"
+    markerzoom="12" labelzoom="13"
+    labelwidth="30" labelheight="11"
+    labellocation="t" />
+<vertex long="-123.1857" lat="49.2643" />
+<vertex label="Macdonald" long="-123.1673" lat="49.2640"
+    markerzoom="11" labelzoom="13"
+    labelwidth="64" labelheight="11"
+    labellocation="t" />
+<vertex label="Granville" long="-123.1384" lat="49.2636"
+    markerzoom="12" labelzoom="13"
+    labelwidth="52" labelheight="11"
+    labellocation="t" />
+<vertex label="Willow" long="-123.1217" lat="49.2633"
+    markerzoom="12" labelzoom="14"
+    labelwidth="44" labelheight="11"
+    labellocation="t" />
+<vertex label="Cambie" long="-123.1142" lat="49.2633"
+    markerzoom="11" labelzoom="14"
+    labelwidth="37" labelheight="11"
+    labellocation="t" />
+<vertex label="Main" long="-123.1008" lat="49.2629"
+    markerzoom="12" labelzoom="13"
+    labelwidth="28" labelheight="11"
+    labellocation="t" />
+<vertex long="-123.0967" lat="49.2628" />
+<vertex long="-123.0953" lat="49.2625" />
+<vertex label="Clark" long="-123.0775" lat="49.2623"
+    markerzoom="12" labelzoom="13"
+    labelwidth="33" labelheight="11"
+    labellocation="t" />
+<vertex long="-123.0696" lat="49.2623" />
+<vertex label="Commercial-Broadway" long="-123.0691" lat="49.2629"
+    markerzoom="15" labelzoom="-1" />
+    <!-- labelwidth/height=-1? -->
+</route>
+

@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+
+<route label="Canada Line" type="skytrain" colour="#0098c9">
+<vertex label="Waterfront Station" long="-123.1128" lat="49.2860"
+    markerzoom="15" labelzoom="15"
+    labelwidth="68" labelheight="11"
+    labellocation="l">
+    <bus label="3" />
+    <bus label="4" />
+    <bus label="6" />
+    <bus label="7" />
+    <bus label="8" />
+    <bus label="10" />
+    <bus label="44" type="rush" />
+    <bus label="50" />
+</vertex>
+<vertex label="Vancouver City Centre" long="-123.1190" lat="49.2819"
+    markerzoom="11" labelzoom="12"
+    labelwidth="64" labelheight="20"
+    labellocation="l">
+    <bus label="4" />
+    <bus label="5" />
+    <bus label="6" />
+    <bus label="7" />
+    <bus label="10" />
+    <bus label="14" />
+    <bus label="16" />
+    <bus label="17" />
+    <bus label="20" />
+    <bus label="50" />
+    <bus label="240" />
+    <bus label="241" type="rush" />
+    <bus label="242" type="rush" />
+    <bus label="246" />
+    <bus label="247" type="rush" />
+    <bus label="250" />
+    <bus label="251" type="rush" />
+    <bus label="252" type="rush" />
+    <bus label="253" type="rush" />
+    <bus label="254" type="rush" />
+    <bus label="257" />
+    <bus label="N6" type="night" />
+    <bus label="N8" type="night" />
+    <bus label="N9" type="night" />
+    <bus label="N10" type="night" />
+    <bus label="N15" type="night" />
+    <bus label="N17" type="night" />
+    <bus label="N19" type="night" />
+    <bus label="N20" type="night" />
+    <bus label="N24" type="night" />
+    <bus label="N35" type="night" />
+</vertex>
+<vertex long="-123.1231" lat="49.2793" />
+<vertex long="-123.1238" lat="49.2785" />
+<vertex long="-123.1240" lat="49.2778" />
+<vertex long="-123.1234" lat="49.2761" />
+<vertex label="Yaletown-Roundhouse" long="-123.1221" lat="49.2745"
+    markerzoom="11" labelzoom="13"
+    labelwidth="70" labelheight="20"
+    labellocation="l"
+    bikelockers="1">
+    <bus label="C21" />
+    <bus label="C23" />
+</vertex>
+<vertex long="-123.1197" lat="49.2730" />
+<vertex long="-123.1182" lat="49.2718" />
+<vertex long="-123.1166" lat="49.2696" />
+<vertex label="Olympic Village" long="-123.1152" lat="49.2662"
+    markerzoom="11" labelzoom="13"
+    labelwidth="44" labelheight="20"
+    labellocation="r"
+    bikelockers="1">
+    <bus label="15" />
+    <bus label="50" />
+    <bus label="84" />
+</vertex>
+<vertex long="-123.1148" lat="49.2649" />
+<vertex label="Broadway-City Hall" long="-123.1148" lat="49.2627"
+    markerzoom="11" labelzoom="12"
+    labelwidth="63" labelheight="20"
+    labellocation="br"
+    bikelockers="1">
+    <bus label="9" />
+    <bus label="15" />
+    <bus label="17" />
+    <bus label="99" type="bline" />
+    <bus label="N9" type="night" />
+    <bus label="N15" type="night" />
+</vertex>
+<vertex label="King Edward" long="-123.1153" lat="49.2489"
+    markerzoom="11" labelzoom="12"
+    labelwidth="70" labelheight="11"
+    labellocation="r"
+    bikelockers="1">
+    <bus label="15" />
+    <bus label="25" />
+    <bus label="33" />
+    <bus label="N15" type="night" />
+</vertex>
+<vertex long="-123.1183" lat="49.2429" />
+<vertex long="-123.1184" lat="49.2407" />
+<vertex label="Oakridge-41st Ave." long="-123.1162" lat="49.2335"
+    markerzoom="11" labelzoom="12"
+    labelwidth="56" labelheight="20"
+    labellocation="r"
+    bikelockers="1">
+    <bus label="15" />
+    <bus label="41" />
+    <bus label="43" type="rush" />
+    <bus label="N15" type="night" />
+</vertex>
+<vertex label="Langara-49th Ave." long="-123.1165" lat="49.2262"
+    markerzoom="12" labelzoom="13"
+    labelwidth="52" labelheight="20"
+    labellocation="r"
+    bikelockers="1">
+    <bus label="15" />
+    <bus label="49" />
+    <bus label="N15" type="night" />
+</vertex>
+<vertex label="Marine Dr." long="-123.1171" lat="49.2102"
+    markerzoom="11" labelzoom="12"
+    labelwidth="56" labelheight="11"
+    labellocation="r"
+    bikelockers="1">
+    <bus label="3" />
+    <bus label="10" />
+    <bus label="15" />
+    <bus label="17" />
+    <bus label="100" />
+    <bus label="N15" type="night" />
+</vertex>
+<vertex long="-123.1180" lat="49.2002" />
+<vertex long="-123.1203" lat="49.1980" />
+<vertex label="Bridgeport" long="-123.1257" lat="49.1958"
+    markerzoom="10" labelzoom="12"
+    labelwidth="60" labelheight="11"
+    labellocation="r"
+    parkandride="1" bikelockers="1">
+    <bus label="311" type="rush" />
+    <bus label="351" />
+    <bus label="352" type="rush" />
+    <bus label="354" type="rush" />
+    <bus label="403" />
+    <bus label="407" />
+    <bus label="430" />
+    <bus label="480" type="rush" />
+    <bus label="601" />
+    <bus label="602" type="rush" />
+    <bus label="603" type="rush" />
+    <bus label="604" type="rush" />
+    <bus label="620" />
+    <bus label="C92" type="rush" />
+</vertex>
+<vertex long="-123.1289" lat="49.1943" id="branch" />
+<!-- branch -->
+<vertex long="-123.1295" lat="49.1939" />
+<vertex long="-123.1301" lat="49.1930" />
+<vertex long="-123.1301" lat="49.1912" />
+<vertex long="-123.1306" lat="49.1903" />
+<vertex long="-123.1333" lat="49.1879" />
+<vertex long="-123.1362" lat="49.1847" />
+<vertex label="Aberdeen" long="-123.1363" lat="49.1840"
+    markerzoom="11" labelzoom="12"
+    labelwidth="52" labelheight="11"
+    labellocation="r"
+    bikelockers="1">
+    <bus label="403" />
+    <bus label="410" />
+    <bus label="N10" type="night" />
+</vertex>
+<vertex label="Lansdowne" long="-123.1365" lat="49.1748"
+    markerzoom="11" labelzoom="13"
+    labelwidth="63" labelheight="11"
+    labellocation="r"
+    bikelockers="1">
+    <bus label="403" />
+    <bus label="405" />
+    <bus label="410" />
+    <bus label="C96" type="rush" />
+    <bus label="N10" type="night" />
+</vertex>
+<vertex label="Richmond-Brighouse" long="-123.1364" lat="49.1681"
+    markerzoom="10" labelzoom="11"
+    labelwidth="59" labelheight="20"
+    labellocation="r"
+    bikelockers="1">
+    <bus label="301" />
+    <bus label="401" />
+    <bus label="402" />
+    <bus label="403" />
+    <bus label="404" />
+    <bus label="405" />
+    <bus label="407" />
+    <bus label="410" />
+    <bus label="430" />
+    <bus label="C94" type="rush" />
+    <bus label="C96" type="rush" />
+    <bus label="N10" type="night" />
+</vertex>
+
+<vertex long="-123.1289" lat="49.1943" fuse="branch"/>
+<vertex long="-123.1301" lat="49.1944" />
+<vertex long="-123.1334" lat="49.1955" />
+<vertex long="-123.1448" lat="49.1969" />
+<vertex label="Templeton" long="-123.1465" lat="49.1967"
+    markerzoom="11" labelzoom="13"
+    labelwidth="57" labelheight="11"
+    labellocation="t">
+    <bus label="N10" type="night" />
+</vertex>
+<vertex long="-123.1483" lat="49.1963" />
+<vertex long="-123.1531" lat="49.1937" />
+<vertex long="-123.1547" lat="49.1932" />
+<vertex label="Sea Island Centre" long="-123.1580" lat="49.1930"
+    markerzoom="11" labelzoom="13"
+    labelwidth="55" labelheight="20"
+    labellocation="t">
+    <bus label="N10" type="night" />
+</vertex>
+<vertex long="-123.1665" lat="49.1931" />
+<vertex long="-123.1718" lat="49.1937" />
+<vertex long="-123.1734" lat="49.1937" />
+<vertex label="YVR-Airport" long="-123.1785" lat="49.1942"
+    markerzoom="10" labelzoom="11"
+    labelwidth="64" labelheight="11"
+    labellocation="t">
+    <bus label="N10" type="night" />
+</vertex>
+</route>

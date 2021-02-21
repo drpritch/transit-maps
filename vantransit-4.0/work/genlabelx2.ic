@@ -1,0 +1,42 @@
+# Same as genlabelx1.ic, but double the resolution.
+
+# Default: 7 pixels high, but adjust to different height depending on
+# presence of other letters.
+HEIGHT=7
+# Two lines: extra height
+if grep -n . /tmp/input.txt | grep -q ^2
+then
+    HEIGHT=16
+fi
+# Three lines: extra height
+if grep -n . /tmp/input.txt | grep -q ^3
+then
+    HEIGHT=29
+fi
+
+# Special treatment if final line contains a Q or J
+EXTRA=0
+if tail -1 /tmp/input.txt | grep -q [Q]
+then
+    EXTRA=1
+fi
+if tail -1 /tmp/input.txt | grep -q [J]
+then
+    EXTRA=2
+fi
+
+HEIGHT=`echo ${HEIGHT} + ${EXTRA} | bc`
+HEIGHT=`echo ${HEIGHT} \* 2 | bc`
+convert \
+    \( -size 1200x300 \
+    xc:transparent \
+    -density 144 \
+    -font Gill-Sans-Bold -interline-spacing -15 -pointsize 32 \
+    -channel RGBA \
+    -fill black -stroke black -gravity Center \
+    -annotate 0 @/tmp/input.txt \
+    -trim -resize 600x${HEIGHT} \
+    -compose src -frame 4x4 \) \
+    -compose overlay \
+    \( canvas:white -size 200x200 -alpha set -channel A -evaluate set 65% \) \
+    -composite foo.png

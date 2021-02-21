@@ -1,0 +1,71 @@
+# GO Lakeshore West
+Union Station
+Exhibition
+Mimico
+Long Branch
+Port Credit
+Clarkson
+Oakville
+Bronte
+Appleby
+Burlington
+Aldershot
+Hamilton
+West Harbour
+Danforth
+Scarborough
+Eglinton
+Guildwood
+Rouge Hill
+Pickering
+Ajax
+Whitby
+Oshawa
+# GO Milton
+Kipling
+Dixie
+Cooksville
+Erindale
+Streetsville
+Meadowvale
+Lisgar
+Milton
+# GO Kitchener
+Bloor
+Weston
+Etobicoke@@North
+Malton
+Bramalea
+Brampton
+Mount@@Pleasant
+Georgetown
+Acton
+Guelph
+Kitchener
+# GO Barrie
+York@@University
+Rutherford
+Maple
+King City
+Aurora
+Newmarket
+East@@Gwillimbury
+Bradford
+Barrie@@South
+Allandale@@Waterfront
+# GO Richmond Hill
+Oriole
+Old@@Cummer
+Langstaff
+Richmond Hill
+Gormley
+# GO Stouffville
+Kennedy
+Agincourt
+Milliken
+Unionville
+Centennial
+Markham
+Mount Joy
+Stouffville
+Lincolnville

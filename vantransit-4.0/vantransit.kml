@@ -1,0 +1,2148 @@
+<?xml version="1.0"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Folder xmlns="">
+    <name>Vancouver Rapid Transit</name>
+    <description>Vancouver's rail, ferry and rapid bus network, operated by
+  TransLink. Includes a future/potential route (Evergreen). Regular buses not shown.
+  </description>
+    <Folder>
+      <name>99 B-Line</name>
+      <open>0</open>
+      <Style id="99RouteColour">
+        <LineStyle>
+          <color>ff52b231</color>
+          <width>8</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>ff52b231</color>
+        </PolyStyle>
+      </Style>
+      <Placemark id="route">
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#99RouteColour</styleUrl>
+        <LineString>
+          <name>Route</name>
+          <tessellate>1</tessellate>
+          <coordinates>-123.2491,49.2658,2357
+-123.2456,49.2664,2357
+-123.2423,49.2669,2357
+-123.2390,49.2669,2357
+-123.2369,49.2663,2357
+-123.2336,49.2644,2357
+-123.2319,49.2637,2357
+-123.2305,49.2635,2357
+-123.2152,49.2639,2357
+-123.2091,49.2638,2357
+-123.1857,49.2633,2357
+-123.1857,49.2639,2357
+-123.1857,49.2643,2357
+-123.1673,49.2640,2357
+-123.1384,49.2636,2357
+-123.1217,49.2633,2357
+-123.1147,49.2633,2357
+-123.1008,49.2629,2357
+-123.0967,49.2628,2357
+-123.0953,49.2625,2357
+-123.0775,49.2623,2357
+-123.0696,49.2623,2357
+-123.0691,49.2629,2357
+</coordinates>
+        </LineString>
+      </Placemark>
+      <Style id="StopIcon">
+        <IconStyle>
+          <Icon>
+            <href>stop.png</href>
+          </Icon>
+          <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+      </Style>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>UBC Loop</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.2491,49.2658, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Allison Road</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.2423,49.2669, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Sasamat</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.2091,49.2638, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Alma</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1857,49.2639, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Macdonald</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1673,49.2640, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Granville</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1384,49.2636, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Willow</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1217,49.2633, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Cambie</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1147,49.2633, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Main</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1008,49.2629, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Clark</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0775,49.2623, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Commercial Drive</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0691,49.2629, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Canada Line</name>
+      <open>0</open>
+      <Style id="CaRouteColour">
+        <LineStyle>
+          <color>ffc99800</color>
+          <width>12</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>ffc99800</color>
+        </PolyStyle>
+      </Style>
+      <Placemark id="route">
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#CaRouteColour</styleUrl>
+        <LineString>
+          <name>Route</name>
+          <tessellate>1</tessellate>
+          <coordinates>-123.1128,49.2860,2357
+-123.1190,49.2819,2357
+-123.1231,49.2793,2357
+-123.1238,49.2785,2357
+-123.1240,49.2778,2357
+-123.1234,49.2761,2357
+-123.1221,49.2745,2357
+-123.1197,49.2730,2357
+-123.1182,49.2718,2357
+-123.1166,49.2696,2357
+-123.1152,49.2662,2357
+-123.1148,49.2649,2357
+-123.1148,49.2627,2357
+-123.1153,49.2489,2357
+-123.1183,49.2429,2357
+-123.1184,49.2407,2357
+-123.1162,49.2335,2357
+-123.1165,49.2262,2357
+-123.1171,49.2102,2357
+-123.1180,49.2002,2357
+-123.1203,49.1980,2357
+-123.1257,49.1958,2357
+-123.1289,49.1943,2357
+-123.1295,49.1939,2357
+-123.1301,49.1930,2357
+-123.1301,49.1912,2357
+-123.1306,49.1903,2357
+-123.1333,49.1879,2357
+-123.1362,49.1847,2357
+-123.1363,49.1840,2357
+-123.1365,49.1748,2357
+-123.1364,49.1681,2357
+</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="airportbranch">
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#CaRouteColour</styleUrl>
+        <LineString>
+          <name>Airport Branch</name>
+          <tessellate>1</tessellate>
+          <coordinates>-123.1289,49.1943,2357
+-123.1301,49.1944,2357
+-123.1334,49.1955,2357
+-123.1448,49.1969,2357
+-123.1465,49.1967,2357
+-123.1483,49.1963,2357
+-123.1531,49.1937,2357
+-123.1547,49.1932,2357
+-123.1580,49.1930,2357
+-123.1665,49.1931,2357
+-123.1718,49.1937,2357
+-123.1734,49.1937,2357
+-123.1785,49.1942,2357
+</coordinates>
+        </LineString>
+      </Placemark>
+      <Style id="StopIcon">
+        <IconStyle>
+          <Icon>
+            <href>stop.png</href>
+          </Icon>
+          <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+      </Style>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Waterfront Station</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1128,49.2860, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Vancouver City Centre</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1190,49.2819, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Yaletown-Roundhouse</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1221,49.2745, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Olympic Village</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1152,49.2662, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Broadway-City Hall</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1148,49.2627, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>King Edward</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1153,49.2489, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Oakridge-41st Ave.</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1162,49.2335, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Langara-49th Ave.</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1165,49.2262, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Marine Dr.</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1171,49.2102, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Bridgeport</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            
+               &lt;img src="bikelockers.png"/&gt;  
+            
+               &lt;img src="parkandride.png"/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1257,49.1958, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Aberdeen</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1363,49.1840, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Lansdowne</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1365,49.1748, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Richmond-Brighouse</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1364,49.1681, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Templeton</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1465,49.1967, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Sea Island Centre</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1580,49.1930, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>YVR-Airport</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1785,49.1942, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Evergreen Line</name>
+      <open>0</open>
+      <Style id="EvRouteColour">
+        <LineStyle>
+          <color>ff516a06</color>
+          <width>12</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>ff516a06</color>
+        </PolyStyle>
+      </Style>
+      <Placemark id="route">
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#EvRouteColour</styleUrl>
+        <LineString>
+          <name>Route</name>
+          <tessellate>1</tessellate>
+          <coordinates>-122.8966,49.2486,2357
+-122.8929,49.2491,2357
+-122.8929,49.2533,2357
+-122.8929,49.2568,2357
+-122.8929,49.2589,2357
+-122.8726,49.2743,2357
+-122.8668,49.2763,2357
+-122.8643,49.2763,2357
+-122.8419,49.2763,2357
+-122.8326,49.2763,2357
+-122.8333,49.2763,2357
+-122.8295,49.2763,2357
+-122.8272,49.2773,2357
+-122.8259,49.2780,2357
+-122.8186,49.2783,2357
+-122.8052,49.2783,2357
+-122.7993,49.2756,2357
+-122.7975,49.2760,2357
+-122.7942,49.2796,2357
+-122.7932,49.2807,2357
+-122.7932,49.2834,2357
+-122.7924,49.2848,2357
+</coordinates>
+        </LineString>
+      </Placemark>
+      <Style id="StopIcon">
+        <IconStyle>
+          <Icon>
+            <href>stop.png</href>
+          </Icon>
+          <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+      </Style>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Lougheed Town Centre</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.8966,49.2486, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Burquitlam</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.8929,49.2589, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Kyle-Queens (Old Town)</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.8643,49.2763, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Port Moody</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.8419,49.2763, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Ioco-Moray</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.8326,49.2763, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Falcon</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.8186,49.2783, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>West Coast Express</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.7993,49.2756, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Lincoln</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.7942,49.2796, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Coquitlam</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.7924,49.2848, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Expo Line</name>
+      <open>0</open>
+      <Style id="ExRouteColour">
+        <LineStyle>
+          <color>ffad6100</color>
+          <width>12</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>ffad6100</color>
+        </PolyStyle>
+      </Style>
+      <Placemark id="route">
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#ExRouteColour</styleUrl>
+        <LineString>
+          <name>Route</name>
+          <tessellate>1</tessellate>
+          <coordinates>-123.1114,49.2860,2357
+-123.1158,49.2878,2357
+-123.1179,49.2880,2357
+-123.1191,49.2876,2357
+-123.1200,49.2867,2357
+-123.1200,49.2855,2357
+-123.1170,49.2830,2357
+-123.1099,49.2799,2357
+-123.1078,49.2785,2357
+-123.1046,49.2777,2357
+-123.1028,49.2767,2357
+-123.1023,49.2734,2357
+-123.1002,49.2731,2357
+-123.0824,49.2696,2357
+-123.0785,49.2664,2357
+-123.0692,49.2618,2357
+-123.0692,49.2563,2357
+-123.0646,49.2512,2357
+-123.0560,49.2483,2357
+-123.0461,49.2442,2357
+-123.0321,49.2384,2357
+-123.0127,49.2296,2357
+-123.0036,49.2256,2357
+-122.9947,49.2214,2357
+-122.9887,49.2200,2357
+-122.9794,49.2181,2357
+-122.9721,49.2150,2357
+-122.9631,49.2149,2357
+-122.9609,49.2141,2357
+-122.9594,49.2121,2357
+-122.9568,49.2086,2357
+-122.9569,49.2070,2357
+-122.9586,49.2048,2357
+-122.9589,49.2028,2357
+-122.9577,49.2009,2357
+-122.9533,49.1994,2357
+-122.9494,49.1999,2357
+-122.9451,49.2009,2357
+-122.9419,49.2013,2357
+-122.9355,49.2036,2357
+-122.9332,49.2038,2357
+-122.9287,49.2033,2357
+-122.9248,49.2011,2357
+-122.9209,49.2003,2357
+-122.9153,49.1999,2357
+-122.9129,49.2014,2357
+-122.9062,49.2047,2357
+-122.9033,49.2063,2357
+-122.9013,49.2065,2357
+-122.8888,49.2035,2357
+-122.8841,49.2033,2357
+-122.8748,49.2044,2357
+-122.8704,49.2050,2357
+-122.8619,49.2070,2357
+-122.8593,49.2070,2357
+-122.8570,49.2062,2357
+-122.8508,49.2020,2357
+-122.8508,49.1989,2357
+-122.8508,49.1944,2357
+-122.8481,49.1920,2357
+-122.8480,49.1894,2357
+-122.8481,49.1885,2357
+-122.8472,49.1872,2357
+-122.8471,49.1839,2357
+-122.8449,49.1828,2357
+</coordinates>
+        </LineString>
+      </Placemark>
+      <Style id="StopIcon">
+        <IconStyle>
+          <Icon>
+            <href>stop.png</href>
+          </Icon>
+          <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+      </Style>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Waterfront</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1114,49.2860, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Burrard</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1200,49.2855, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Granville</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1170,49.2830, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Stadium-Chinatown</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1099,49.2799, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Main Street-Science World</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1002,49.2731, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Broadway</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0692,49.2618, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Nanaimo</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0560,49.2483, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>29th Ave.</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0461,49.2442, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Joyce-Collingwood</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0321,49.2384, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Patterson</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0127,49.2296, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Metrotown</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0036,49.2256, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Royal Oak</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.9887,49.2200, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Edmonds</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.9594,49.2121, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>22nd St.</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.9494,49.1999, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>New Westminster</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.9129,49.2014, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Columbia</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.9062,49.2047, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Scott Road</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            
+               &lt;img src="bikelockers.png"/&gt;  
+            
+               &lt;img src="parkandride.png"/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.8748,49.2044, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Gateway</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.8508,49.1989, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Surrey Central</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.8480,49.1894, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>King George</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            
+               &lt;img src="bikelockers.png"/&gt;  
+            
+               &lt;img src="parkandride.png"/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.8449,49.1828, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Millenium Line</name>
+      <open>0</open>
+      <Style id="MiRouteColour">
+        <LineStyle>
+          <color>ff21d7ff</color>
+          <width>12</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>ff21d7ff</color>
+        </PolyStyle>
+      </Style>
+      <Placemark id="route">
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#MiRouteColour</styleUrl>
+        <LineString>
+          <name>Route</name>
+          <tessellate>1</tessellate>
+          <coordinates>-123.1114,49.2860,2357
+-123.1158,49.2878,2357
+-123.1179,49.2880,2357
+-123.1191,49.2876,2357
+-123.1200,49.2867,2357
+-123.1200,49.2855,2357
+-123.1170,49.2830,2357
+-123.1099,49.2799,2357
+-123.1078,49.2785,2357
+-123.1046,49.2777,2357
+-123.1028,49.2767,2357
+-123.1023,49.2734,2357
+-123.1002,49.2731,2357
+-123.0824,49.2696,2357
+-123.0785,49.2664,2357
+-123.0692,49.2618,2357
+-123.0692,49.2563,2357
+-123.0646,49.2512,2357
+-123.0560,49.2483,2357
+-123.0461,49.2442,2357
+-123.0321,49.2384,2357
+-123.0127,49.2296,2357
+-123.0036,49.2256,2357
+-122.9947,49.2214,2357
+-122.9887,49.2200,2357
+-122.9794,49.2181,2357
+-122.9721,49.2150,2357
+-122.9631,49.2149,2357
+-122.9609,49.2141,2357
+-122.9594,49.2121,2357
+-122.9568,49.2086,2357
+-122.9569,49.2070,2357
+-122.9586,49.2048,2357
+-122.9589,49.2028,2357
+-122.9577,49.2009,2357
+-122.9533,49.1994,2357
+-122.9494,49.1999,2357
+-122.9451,49.2009,2357
+-122.9419,49.2013,2357
+-122.9355,49.2036,2357
+-122.9332,49.2038,2357
+-122.9287,49.2033,2357
+-122.9248,49.2011,2357
+-122.9209,49.2003,2357
+-122.9153,49.1999,2357
+-122.9129,49.2014,2357
+-122.9062,49.2047,2357
+-122.9033,49.2063,2357
+-122.8976,49.2110,2357
+-122.8949,49.2130,2357
+-122.8919,49.2226,2357
+-122.8895,49.2246,2357
+-122.8826,49.2306,2357
+-122.8837,49.2362,2357
+-122.8928,49.2418,2357
+-122.8931,49.2462,2357
+-122.8970,49.2484,2357
+-122.8995,49.2495,2357
+-122.9026,49.2509,2357
+-122.9075,49.2517,2357
+-122.9095,49.2521,2357
+-122.9183,49.2534,2357
+-122.9257,49.2543,2357
+-122.9373,49.2544,2357
+-122.9391,49.2545,2357
+-122.9420,49.2548,2357
+-122.9536,49.2585,2357
+-122.9640,49.2592,2357
+-122.9660,49.2594,2357
+-122.9688,49.2606,2357
+-122.9796,49.2645,2357
+-122.9824,49.2647,2357
+-122.9841,49.2649,2357
+-122.9924,49.2649,2357
+-122.9973,49.2662,2357
+-123.0017,49.2663,2357
+-123.0063,49.2665,2357
+-123.0112,49.2663,2357
+-123.0137,49.2650,2357
+-123.0148,49.2643,2357
+-123.0158,49.2624,2357
+-123.0277,49.2624,2357
+-123.0330,49.2608,2357
+-123.0348,49.2603,2357
+-123.0454,49.2590,2357
+-123.0538,49.2577,2357
+-123.0577,49.2585,2357
+-123.0683,49.2628,2357
+-123.0768,49.2658,2357
+-123.0798,49.2659,2357
+</coordinates>
+        </LineString>
+      </Placemark>
+      <Style id="StopIcon">
+        <IconStyle>
+          <Icon>
+            <href>stop.png</href>
+          </Icon>
+          <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+      </Style>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Waterfront</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1114,49.2860, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Burrard</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1200,49.2855, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Granville</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1170,49.2830, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Stadium-Chinatown</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1099,49.2799, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Main Street-Science World</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1002,49.2731, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Broadway</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0692,49.2618, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Nanaimo</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0560,49.2483, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>29th Ave.</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0461,49.2442, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Joyce-Collingwood</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0321,49.2384, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Patterson</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0127,49.2296, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Metrotown</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0036,49.2256, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Royal Oak</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.9887,49.2200, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Edmonds</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.9594,49.2121, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>22nd St.</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.9494,49.1999, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>New Westminster</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.9129,49.2014, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Columbia</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.9062,49.2047, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Sapperton</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            
+               &lt;img src="bikelockers.png"/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.8895,49.2246, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Braid</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            
+               &lt;img src="bikelockers.png"/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.8826,49.2306, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Lougheed Town Centre</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            
+               &lt;img src="bikelockers.png"/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.8970,49.2484, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Production Way-University</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.9183,49.2534, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Lake City Way</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.9391,49.2545, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Sperling-Burnaby Lake</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            
+               &lt;img src="bikelockers.png"/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.9640,49.2592, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Holdom</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            
+               &lt;img src="bikelockers.png"/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.9824,49.2647, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Brentwood Town Centre</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0017,49.2663, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Gilmore</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0137,49.2650, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Rupert</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0330,49.2608, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Renfrew</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0454,49.2590, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Commercial Drive</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0683,49.2628, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>VCC-Clark</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0798,49.2659, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>SeaBus</name>
+      <open>0</open>
+      <Style id="SeRouteColour">
+        <LineStyle>
+          <color>ff5e6982</color>
+          <width>8</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>ff5e6982</color>
+        </PolyStyle>
+      </Style>
+      <Placemark id="route">
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#SeRouteColour</styleUrl>
+        <LineString>
+          <name>Route</name>
+          <tessellate>1</tessellate>
+          <coordinates>-123.1090,49.2871,2357
+-123.0842,49.3094,2357
+</coordinates>
+        </LineString>
+      </Placemark>
+      <Style id="StopIcon">
+        <IconStyle>
+          <Icon>
+            <href>stop.png</href>
+          </Icon>
+          <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+      </Style>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Waterfront Station</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1090,49.2871, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Lonsdale Quay</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.0842,49.3094, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>West Coast Express</name>
+      <open>0</open>
+      <Style id="WeRouteColour">
+        <LineStyle>
+          <color>ff8c1e71</color>
+          <width>6</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>ff8c1e71</color>
+        </PolyStyle>
+      </Style>
+      <Placemark id="route">
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#WeRouteColour</styleUrl>
+        <LineString>
+          <name>Route</name>
+          <tessellate>1</tessellate>
+          <coordinates>-123.1114,49.2860,2357
+-123.1089,49.2850,2357
+-123.1038,49.2842,2357
+-123.0942,49.2856,2357
+-123.0835,49.2827,2357
+-123.0658,49.2850,2357
+-123.0626,49.2864,2357
+-123.0601,49.2897,2357
+-123.0562,49.2915,2357
+-123.0494,49.2928,2357
+-123.0431,49.2914,2357
+-123.0399,49.2893,2357
+-123.0364,49.2886,2357
+-123.0335,49.2888,2357
+-123.0268,49.2923,2357
+-123.0231,49.2933,2357
+-123.0192,49.2934,2357
+-123.0103,49.2924,2357
+-123.0057,49.2904,2357
+-123.0009,49.2902,2357
+-122.9893,49.2949,2357
+-122.9868,49.2949,2357
+-122.9817,49.2923,2357
+-122.9743,49.2891,2357
+-122.9627,49.2870,2357
+-122.9513,49.2900,2357
+-122.9473,49.2900,2357
+-122.9332,49.2918,2357
+-122.9190,49.2885,2357
+-122.9133,49.2892,2357
+-122.9040,49.2880,2357
+-122.8993,49.2886,2357
+-122.8932,49.2914,2357
+-122.8910,49.2916,2357
+-122.8855,49.2907,2357
+-122.8793,49.2918,2357
+-122.8741,49.2919,2357
+-122.8702,49.2904,2357
+-122.8673,49.2884,2357
+-122.8661,49.2853,2357
+-122.8661,49.2825,2357
+-122.8655,49.2810,2357
+-122.8622,49.2792,2357
+-122.8576,49.2780,2357
+-122.8518,49.2783,2357
+-122.8419,49.2780,2357
+-122.8352,49.2779,2357
+-122.8258,49.2765,2357
+-122.8039,49.2756,2357
+-122.7997,49.2738,2357
+-122.7931,49.2702,2357
+-122.7748,49.2625,2357
+-122.7767,49.2632,2357
+-122.7409,49.2481,2357
+-122.7369,49.2464,2357
+-122.7003,49.2307,2357
+-122.6884,49.2257,2357
+-122.6626,49.2149,2357
+-122.6528,49.2064,2357
+-122.6477,49.2055,2357
+-122.6391,49.2085,2357
+-122.6253,49.2122,2357
+-122.6106,49.2132,2357
+-122.6018,49.2113,2357
+-122.6006,49.2109,2357
+-122.5859,49.2049,2357
+-122.5812,49.2032,2357
+-122.5724,49.1916,2357
+-122.5600,49.1828,2357
+-122.5449,49.1776,2357
+-122.5288,49.1734,2357
+-122.5076,49.1726,2357
+-122.4991,49.1707,2357
+-122.4641,49.1741,2357
+-122.4344,49.1730,2357
+-122.4201,49.1710,2357
+-122.4113,49.1643,2357
+-122.4031,49.1569,2357
+-122.3501,49.1352,2357
+-122.3435,49.1315,2357
+-122.3363,49.1301,2357
+-122.3092,49.1336,2357
+-122.3039,49.1336,2357
+</coordinates>
+        </LineString>
+      </Placemark>
+      <Style id="StopIcon">
+        <IconStyle>
+          <Icon>
+            <href>stop.png</href>
+          </Icon>
+          <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+      </Style>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Waterfront</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            </description>
+        <Point>
+          <coordinates>-123.1114,49.2860, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Port Moody</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            
+               &lt;img src="bikelockers.png"/&gt;  
+            
+               &lt;img src="parkandride.png"/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.8419,49.2780, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Coquitlam</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            
+               &lt;img src="bikelockers.png"/&gt;  
+            
+               &lt;img src="parkandride.png"/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.7997,49.2738, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Port Coquitlam</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            
+               &lt;img src="parkandride.png"/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.7767,49.2632, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Pitt Meadows</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            
+               &lt;img src="bikelockers.png"/&gt;  
+            
+               &lt;img src="parkandride.png"/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.6884,49.2257, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Maple Meadows</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            
+               &lt;img src="bikelockers.png"/&gt;  
+            
+               &lt;img src="parkandride.png"/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.6626,49.2149, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Port Haney</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            
+               &lt;img src="bikelockers.png"/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.6018,49.2113, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <MetaData>
+          <Author>David Pritchard</Author>
+          <Description>Data was eyeballed from map; not accurate in any sense</Description>
+        </MetaData>
+        <styleUrl>#StopIcon</styleUrl>
+        <name>Mission</name>
+        <address/>
+        <Snippet/>
+        <description>  &lt;br/&gt;  
+            
+               &lt;img src="bikelockers.png"/&gt;  
+            
+               &lt;img src="parkandride.png"/&gt;  
+            </description>
+        <Point>
+          <coordinates>-122.3039,49.1336, 2400
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Folder>
+</kml>

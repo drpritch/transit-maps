@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+
+<route label="Stouffville" type="gotrain" colour="#31b252" width="8"
+    defaultstop="gostop" operator="gotransit" opacity="1.0">
+<vertex label="Union Station" lat="43.6448" long="-79.3796"
+    markerzoom="15" labelzoom="-1"
+    address="55 Front St. W"
+    url="http://gotransit.com/publicroot/en/travelling/stations.aspx?station=USTN"
+    marker="interchange" accessible="1" />
+<vertex lat="43.6491" long="-79.3585" />
+<vertex lat="43.6536" long="-79.3496" />
+<vertex lat="43.6567" long="-79.3463" />
+<vertex lat="43.6627" long="-79.3455" />
+<vertex lat="43.6679" long="-79.3421" />
+<vertex lat="43.6718" long="-79.3373" />
+<vertex lat="43.6862" long="-79.3006" />
+<vertex lat="43.6916" long="-79.2774" />
+<vertex lat="43.6940" long="-79.2719" />
+<vertex lat="43.6981" long="-79.2675" />
+<vertex lat="43.7169" long="-79.2551" />
+<vertex lat="43.7219" long="-79.2529" />
+<vertex lat="43.7251" long="-79.2544" />
+<vertex lat="43.7267" long="-79.2567" />
+<vertex lat="43.7285" long="-79.2610" />
+<vertex label="Kennedy" lat="43.7328" long="-79.2627"
+    markerzoom="11" labelzoom="-1"
+    labelwidth="49" labelheight="11" labellocation="r"
+    address="2467 Eglinton Ave. E"
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=KDGO"
+    elevator="1" accessible="1" cashparking="1" />
+<vertex lat="43.7834" long="-79.2827" />
+<vertex label="Agincourt" lat="43.7850" long="-79.2838"
+    markerzoom="9" labelzoom="10"
+    labelwidth="60" labelheight="11" labellocation="r"
+    address="4100 Sheppard Ave. E"
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=AGGO"
+    accessible="1" cashparking="1" />
+<vertex lat="43.8015" long="-79.2909" />
+<vertex lat="43.8041" long="-79.2929" />
+<vertex label="Milliken" lat="43.8240" long="-79.3020"
+    markerzoom="10" labelzoom="10"
+    labelwidth="45" labelheight="11" labellocation="r"
+    address="39 Redlea Ave."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=MIGO"
+    washroom="1" accessible="1" cashparking="1" />
+<vertex lat="43.8261" long="-79.3030" />
+<vertex lat="43.8376" long="-79.3141" />
+<vertex lat="43.8445" long="-79.3156" />
+<vertex label="Unionville" lat="43.8520" long="-79.3147"
+    markerzoom="9" labelzoom="10"
+    labelwidth="58" labelheight="11" labellocation="l"
+    address="7970 Kennedy Rd."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=UVGO"
+    washroom="1" accessible="1" cashparking="1" />
+<vertex lat="43.8636" long="-79.3130" />
+<vertex lat="43.8687" long="-79.3009" />
+<vertex lat="43.8714" long="-79.2976" />
+<vertex label="Centennial" lat="43.8753" long="-79.2832"
+    markerzoom="10" labelzoom="11"
+    labelwidth="61" labelheight="11" labellocation="t"
+    address="320 Bullock Dr."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=CEGO"
+    accessible="1" cashparking="1" />
+<vertex lat="43.8800" long="-79.2639" />
+<vertex label="Markham" lat="43.8827" long="-79.2626"
+    markerzoom="9" labelzoom="10"
+    labelwidth="52" labelheight="11" labellocation="r"
+    address="214 Main St. N"
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=MKGO"
+    washroom="1" accessible="1" cashparking="1" />
+<vertex lat="43.8839" long="-79.2621" />
+<vertex lat="43.8862" long="-79.2600" />
+<vertex lat="43.8971" long="-79.2635" />
+<vertex label="Mount Joy" lat="43.9004" long="-79.2630"
+    markerzoom="10" labelzoom="10"
+    labelwidth="58" labelheight="13" labellocation="r"
+    address="1801 Bur Oak Ave."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=MJGO"
+    washroom="1" accessible="1" cashparking="1" />
+<vertex lat="43.9056" long="-79.2623" />
+<vertex lat="43.9098" long="-79.2633" />
+<vertex lat="43.9161" long="-79.2582" />
+<vertex lat="43.9210" long="-79.2576" />
+<vertex lat="43.9253" long="-79.2549" />
+<vertex lat="43.9298" long="-79.2569" />
+<vertex lat="43.9324" long="-79.2564" />
+<vertex lat="43.9361" long="-79.2521" />
+<vertex lat="43.9469" long="-79.2521" />
+<vertex lat="43.9511" long="-79.2501" />
+<vertex lat="43.9579" long="-79.2510" />
+<vertex label="Stouffville" lat="43.9712" long="-79.2500"
+    markerzoom="9" labelzoom="9"
+    labelwidth="60" labelheight="11" labellocation="r"
+    address="6176 Main St."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=SVGO"
+    washroom="1" accessible="1" cashparking="1" />
+<vertex lat="43.9762" long="-79.2495" />
+<vertex lat="43.9838" long="-79.2431" />
+<vertex lat="43.9855" long="-79.2397" />
+<vertex lat="43.9875" long="-79.2389" />
+<vertex label="Lincolnville" lat="43.9948" long="-79.2344"
+    markerzoom="10" labelzoom="10"
+    labelwidth="67" labelheight="11" labellocation="r"
+    address="6840 Bethesda Rd."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=LCGO"
+    accessible="1" cashparking="1" />
+</route>

@@ -1,0 +1,15 @@
+<route label="Lakeshore West 2" type="gotrain" colour="#31b252" width="8"
+    defaultstop="gostop" operator="gotransit" opacity="1.0">
+<vertex lat="43.2806" long="-79.8906" />
+<vertex lat="43.2778" long="-79.8895" />
+<vertex lat="43.2736" long="-79.8865" />
+<vertex lat="43.2708" long="-79.8833" />
+<vertex lat="43.2686" long="-79.8737" />
+<vertex label="West Harbour" lat="43.2668" long="-79.8661"
+    markerzoom="9" labelzoom="10"
+    labelwidth="77" labelheight="11" labellocation="t"
+    address="353 James St. N"
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=WHBR"
+    washroom="1" accessible="1" />
+</route>
+

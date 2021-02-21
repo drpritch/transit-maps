@@ -1,0 +1,41 @@
+.bus {
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 8pt;
+    color: white;
+    background-color: #5a7fa3;
+    border: solid #5a7fa3 1px;
+}
+.rush {
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 8pt;
+    border-width: 1px;
+    color: #5a7fa3;
+    background-color: white;
+    border: solid #5a7fa3 1px;
+}
+.bline {
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 8pt;
+    color: white;
+    background-color: #f68e1e;
+    border: solid #f68e1e 1px;
+}
+.night {
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 8pt;
+    color: white;
+    background-color: #631c7b;
+    border: solid #631c7b 1px;
+}

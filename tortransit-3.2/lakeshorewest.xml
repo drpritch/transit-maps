@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+
+<route label="Lakeshore West" type="gotrain" colour="#31b252" width="8"
+    defaultstop="gostop" operator="gotransit" opacity="1.0">
+<vertex label="Union Station" lat="43.6448" long="-79.3796"
+    markerzoom="-1" labelzoom="-1"
+    address="55 Front St. W"
+    url="http://gotransit.com/publicroot/en/travelling/stations.aspx?station=USTN"
+    marker="interchange" accessible="1" />
+<vertex lat="43.6399" long="-79.4040" />
+<vertex label="Exhibition" lat="43.6360" long="-79.4188"
+    markerzoom="11" labelzoom="11"
+    labelwidth="55" labelheight="11"
+    labellocation="b"
+    address="Manitoba Dr."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=EXGO"
+    elevator="1" accessible="1" />
+<vertex lat="43.6333" long="-79.4289" />
+<vertex lat="43.6333" long="-79.4321" />
+<vertex lat="43.6337" long="-79.4354" />
+<vertex lat="43.6388" long="-79.4495" />
+<vertex lat="43.6392" long="-79.4593" />
+<vertex lat="43.6345" long="-79.4725" />
+<vertex label="Mimico" lat="43.6155" long="-79.4985"
+    markerzoom="9" labelzoom="10"
+    labelwidth="38" labelheight="11" labellocation="br"
+    address="315 Royal York Rd."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=MMGO"
+    washroom="1" cashparking="1" />
+<vertex label="Long Branch" lat="43.5917" long="-79.5459"
+    markerzoom="10" labelzoom="10"
+    labelwidth="71" labelheight="11" labellocation="br"
+    address="20 Brow Dr."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=LBGO"
+    washroom="1" cashparking="1" />
+<vertex lat="43.5880" long="-79.5519" />
+<vertex label="Port Credit" lat="43.5569" long="-79.5862"
+    markerzoom="9" labelzoom="10"
+    labelwidth="63" labelheight="11" labellocation="br"
+    address="30 Queen St. E"
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=PCGO"
+    washroom="1" cashparking="1" accessible="1" />
+<vertex label="Clarkson" lat="43.5130" long="-79.6337"
+    markerzoom="10" labelzoom="10"
+    labelwidth="53" labelheight="11" labellocation="br"
+    address="1110 Southdown Rd."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=CLGO"
+    washroom="1" cashparking="1" accessible="1" />
+<vertex lat="43.5068" long="-79.6405" />
+<vertex label="Oakville" lat="43.4557" long="-79.6816"
+    markerzoom="9" labelzoom="10"
+    labelwidth="46" labelheight="11" labellocation="br"
+    address="214 Cross Ave."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=OKGO"
+    washroom="1" cashparking="1" accessible="1" />
+<vertex label="Bronte" lat="43.4171" long="-79.7221"
+    markerzoom="10" labelzoom="10"
+    labelwidth="40" labelheight="11" labellocation="br"
+    address="2104 Wyecroft Rd."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=BTGO"
+    washroom="1" cashparking="1" accessible="1" />
+<vertex label="Appleby" lat="43.3791" long="-79.7618"
+    markerzoom="10" labelzoom="10"
+    labelwidth="43" labelheight="11" labellocation="br"
+    address="5111 Fairview St."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=APGO"
+    washroom="1" cashparking="1" accessible="1" />
+<vertex label="Burlington" lat="43.3404" long="-79.8105"
+    markerzoom="9" labelzoom="10"
+    labelwidth="63" labelheight="11" labellocation="br"
+    address="2101 Fairview St."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=BUGO"
+    washroom="1" cashparking="1" accessible="1" />
+<vertex label="Aldershot" lat="43.3129" long="-79.8554"
+    markerzoom="10" labelzoom="10"
+    labelwidth="58" labelheight="11" labellocation="br"
+    address="1199 Waterdown Rd."
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=ALGO"
+    washroom="1" cashparking="1" accessible="1" />
+<vertex lat="43.2943" long="-79.8854" />
+<vertex lat="43.2845" long="-79.8912" />
+<vertex lat="43.2806" long="-79.8906" />
+<vertex lat="43.2765" long="-79.8924" />
+<vertex lat="43.2748" long="-79.8921" />
+<vertex lat="43.2725" long="-79.8901" />
+<vertex lat="43.2713" long="-79.8899" />
+<vertex lat="43.2701" long="-79.8902" />
+<vertex lat="43.2638" long="-79.8894" />
+<vertex lat="43.2607" long="-79.8906" />
+<vertex lat="43.2594" long="-79.8904" />
+<vertex lat="43.2585" long="-79.8896" />
+<vertex lat="43.2578" long="-79.8882" />
+<vertex label="Hamilton" lat="43.2530" long="-79.8692"
+    markerzoom="9" labelzoom="9"
+    labelwidth="52" labelheight="11" labellocation="b"
+    address="36 Hunter St. E"
+    url="http://www.gotransit.com/publicroot/en/travelling/stations.aspx?station=HMGO"
+    washroom="1" accessible="1" />
+</route>

@@ -1,0 +1,107 @@
+# Seabus
+Lonsdale Quay
+#  Expo Line
+Waterfront
+Burrard
+Granville
+Stadium-@@Chinatown
+Main Street-@@Science World
+Commercial-@@Broadway
+Nanaimo
+29th Ave.
+Joyce-@@Collingwood
+Patterson
+Metrotown
+Royal Oak
+Edmonds
+22nd St.
+New@@Westminster
+Columbia
+Scott Road
+Gateway
+Surrey@@Central
+King George
+# Expo line branch
+Sapperton
+Braid
+# Shared
+Lougheed@@Town Centre
+Production Way-@@University
+# Millenium Line
+VCC-Clark
+Renfrew
+Rupert
+Gilmore
+Brentwood@@Town Centre
+Holdom
+Sperling-@@Burnaby Lake
+Lake City Way
+Burquitlam
+Moody Centre
+Inlet Centre
+Coquitlam@@Central
+Lincoln
+Lafarge Lake-@@Douglas
+# Canada Line
+Vancouver@@City Centre
+Yaletown-@@Roundhouse
+Olympic@@Village
+Broadway-@@City Hall
+King Edward
+Oakridge-@@41st Ave.
+Langara-@@49th Ave.
+Marine Dr.
+Bridgeport
+Aberdeen
+Lansdowne
+Richmond-@@Brighouse
+Templeton
+Sea Island@@Centre
+YVR-Airport
+# 95 B-Line
+Granville
+Cambie
+Main
+Commercial
+Nanaimo
+Renfrew
+Kootenay Loop
+Gilmore
+Willingdon
+Hythe
+Holdom
+Kensington
+Duthie
+SFU@@Transportation@@Centre
+SFU@@Exchange
+# 96 B-Line
+Guildford@@Exchange
+148th St
+144th St
+140th St
+Whalley
+96th Ave
+88th Ave
+80th Ave
+76th Ave
+Newton@@Exchange
+# 99 B-line
+UBC Loop
+Allison Road
+Sasamat
+Alma
+Macdonald
+Granville
+Willow
+Cambie
+Main
+Clark
+# West Coast Express
+Waterfront
+Port Moody
+Coquitlam
+Port Coquitlam
+Pitt Meadows
+Maple Meadows
+Port Haney
+Mission

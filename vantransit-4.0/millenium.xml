@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+
+<route label="Millenium Line" type="skytrain" colour="#fdd004">
+<vertex label="VCC-Clark" long="-123.0798" lat="49.2659"
+    markerzoom="12" labelzoom="13"
+    labelwidth="56" labelheight="11"
+    labellocation="t">
+    <bus label="84" />
+</vertex>
+<vertex long="-123.0768" lat="49.2658" />
+<vertex label="Commercial-Broadway" long="-123.0683" lat="49.2628"
+    markerzoom="11" labelzoom="17"
+    labelwidth="68" labelheight="20"
+    labellocation="t" />
+<vertex long="-123.0577" lat="49.2585" />
+<vertex long="-123.0538" lat="49.2577" />
+<vertex label="Renfrew" long="-123.0454" lat="49.2590"
+    markerzoom="11" labelzoom="13"
+    labelwidth="48" labelheight="11"
+    labellocation="t"
+    bikelockers="1">
+    <bus label="16" />
+    <bus label="N16" type="night" />
+</vertex>
+<vertex long="-123.0348" lat="49.2603" />
+<vertex label="Rupert" long="-123.0330" lat="49.2608"
+    markerzoom="11" labelzoom="12"
+    labelwidth="38" labelheight="11"
+    labellocation="t"
+    bikelockers="1">
+    <bus label="27" />
+</vertex>
+<vertex long="-123.0277" lat="49.2624" />
+<vertex long="-123.0158" lat="49.2624" />
+<vertex long="-123.0148" lat="49.2643" />
+<vertex label="Gilmore" long="-123.0137" lat="49.2650"
+    markerzoom="11" labelzoom="13"
+    labelwidth="43" labelheight="11"
+    labellocation="t"
+    bikelockers="1">
+    <bus label="28" />
+    <bus label="129" />
+</vertex>
+<vertex long="-123.0112" lat="49.2663" />
+<vertex long="-123.0063" lat="49.2665" />
+<vertex label="Brentwood Town Centre" long="-123.0017" lat="49.2663"
+    markerzoom="10" labelzoom="11"
+    labelwidth="75" labelheight="20"
+    labellocation="t"
+    bikelockers="1">
+    <bus label="25" />
+    <bus label="123" />
+    <bus label="130" />
+    <bus label="134" />
+    <bus label="136" />
+</vertex>
+<vertex long="-122.9973" lat="49.2662" />
+<vertex long="-122.9924" lat="49.2649" />
+<vertex long="-122.9841" lat="49.2649" />
+<vertex label="Holdom" long="-122.9824" lat="49.2647"
+    markerzoom="11" labelzoom="13"
+    labelwidth="45" labelheight="11"
+    labellocation="t"
+    bikelockers="1">
+    <bus label="129" />
+    <bus label="136" />
+</vertex>
+<vertex long="-122.9796" lat="49.2645" />
+<vertex long="-122.9688" lat="49.2606" />
+<vertex long="-122.9660" lat="49.2594" />
+<vertex label="Sperling-Burnaby Lake" long="-122.9640" lat="49.2592"
+    markerzoom="11" labelzoom="12"
+    labelwidth="73" labelheight="20"
+    labellocation="t"
+    bikelockers="1">
+    <bus label="110" />
+    <bus label="134" />
+    <bus label="144" />
+</vertex>
+<vertex long="-122.9536" lat="49.2585" />
+<vertex long="-122.9420" lat="49.2548" />
+<vertex label="Lake City Way" long="-122.9391" lat="49.2545"
+    markerzoom="11" labelzoom="13"
+    labelwidth="74" labelheight="11"
+    labellocation="t"
+    bikelockers="1">
+    <bus label="134" />
+</vertex>
+<vertex long="-122.9373" lat="49.2544" />
+<vertex long="-122.9257" lat="49.2543" />
+<vertex long="-122.9183" lat="49.2534" />
+</route>

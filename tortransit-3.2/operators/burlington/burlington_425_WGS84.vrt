@@ -1,0 +1,44 @@
+<VRTDataset rasterXSize="10989" rasterYSize="8077">
+  <SRS>GEOGCS[&quot;WGS 84&quot;,DATUM[&quot;WGS_1984&quot;,SPHEROID[&quot;WGS 84&quot;,6378137,298.257223563,AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]],AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]],PRIMEM[&quot;Greenwich&quot;,0],UNIT[&quot;degree&quot;,0.0174532925199433],AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</SRS>
+  <GeoTransform> -7.9969305128708726e+01,  2.5113709825000957e-05,  0.0000000000000000e+00,  4.3440274463846187e+01,  0.0000000000000000e+00, -2.5113709825000957e-05</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <ColorInterp>Red</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">burlington_425_WGS84.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10989" RasterYSize="8077" DataType="Byte" BlockXSize="10989" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="10989" ySize="8077" />
+      <DstRect xOff="0" yOff="0" xSize="10989" ySize="8077" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <ColorInterp>Green</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">burlington_425_WGS84.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="10989" RasterYSize="8077" DataType="Byte" BlockXSize="10989" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="10989" ySize="8077" />
+      <DstRect xOff="0" yOff="0" xSize="10989" ySize="8077" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <ColorInterp>Blue</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">burlington_425_WGS84.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="10989" RasterYSize="8077" DataType="Byte" BlockXSize="10989" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="10989" ySize="8077" />
+      <DstRect xOff="0" yOff="0" xSize="10989" ySize="8077" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="4">
+    <ColorInterp>Alpha</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">burlington_425_WGS84.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="10989" RasterYSize="8077" DataType="Byte" BlockXSize="10989" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="10989" ySize="8077" />
+      <DstRect xOff="0" yOff="0" xSize="10989" ySize="8077" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>

@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+
+<route label="Viva Blue" type="brtlight" colour="#009ddc" width="4"
+    opacity="0.85" operator="viva">
+<vertex label="Finch" long="-79.4160" lat="43.7824"
+    markerzoom="10" labelzoom="-1"
+    labelwidth="31" labelheight="11" labellocation="r"
+/>
+<vertex label="Steeles" long="-79.420357" lat="43.797901"
+    markerzoom="11" labelzoom="12"
+    labelwidth="37" labelheight="11" labellocation="r"
+/>
+<vertex label="Clark" long="-79.4223" lat="43.8072"
+    markerzoom="12" labelzoom="13"
+    labelwidth="33" labelheight="11" labellocation="r"
+/>
+<vertex label="Centre" long="-79.4245" lat="43.8163"
+    markerzoom="12" labelzoom="13"
+    labelwidth="39" labelheight="11" labellocation="r"
+/>
+<vertex label="Royal Orchard" long="-79.4260" lat="43.8228"
+    markerzoom="12" labelzoom="13"
+    labelwidth="83" labelheight="11" labellocation="r"
+/>
+<vertex long="-79.429604" lat="43.839211" />
+<vertex long="-79.427673" lat="43.839424" />
+<vertex long="-79.427032" lat="43.839382" />
+<vertex long="-79.426514" lat="43.839157" />
+<vertex long="-79.425873" lat="43.839970" />
+<vertex label="Richmond Hill Centre" long="-79.425522" lat="43.840038"
+    markerzoom="10" labelzoom="11"
+    marker="interchange"
+    labelwidth="78" labelheight="20" labellocation="l"
+    />
+<vertex long="-79.425926" lat="43.840065" />
+<vertex long="-79.426529" lat="43.839352" />
+<vertex long="-79.427048" lat="43.839504" />
+<vertex long="-79.427658" lat="43.839550" />
+<vertex long="-79.429611" lat="43.839317" />
+<vertex label="Bantry-Scott" long="-79.4315" lat="43.8464"
+    markerzoom="12" labelzoom="13"
+    labelwidth="74" labelheight="11" labellocation="r"
+    />
+<vertex label="16th-Carville" long="-79.433037" lat="43.853069"
+    markerzoom="12" labelzoom="13"
+    labelwidth="69" labelheight="11" labellocation="r"
+    />
+<vertex label="Weldrick" long="-79.4348" lat="43.8603"
+    markerzoom="12" labelzoom="13"
+    labelwidth="52" labelheight="11" labellocation="r"
+    />
+<vertex label="Major MacKenzie" long="-79.4372" lat="43.8713"
+    markerzoom="11" labelzoom="12"
+    labelwidth="89" labelheight="13" labellocation="l"
+    />
+<vertex label="Crosby" long="-79.4393" lat="43.8801"
+    markerzoom="37" labelzoom="13"
+    labelwidth="40" labelheight="11" labellocation="r"
+    />
+<vertex label="Elgin Mills" long="-79.4415" lat="43.8896"
+    markerzoom="12" labelzoom="13"
+    labelwidth="56" labelheight="11" labellocation="r"
+    />
+<vertex label="Bernard" long="-79.4428" lat="43.8948"
+    markerzoom="12" labelzoom="13"
+    labelwidth="48" labelheight="11" labellocation="r"
+    />
+<vertex label="19th-Gamble" long="-79.445923" lat="43.907879"
+    markerzoom="11" labelzoom="12"
+    labelwidth="63" labelheight="11" labellocation="r"
+/>
+<vertex label="Jefferson" long="-79.4494" lat="43.9225"
+    markerzoom="12" labelzoom="13"
+    labelwidth="51" labelheight="13" labellocation="r"
+/>
+<vertex long="-79.450851" lat="43.927422" />
+<vertex long="-79.453430" lat="43.933849" />
+<vertex long="-79.453812" lat="43.936279" />
+<vertex long="-79.453293" lat="43.938629" />
+<vertex label="King" long="-79.454758" lat="43.944641"
+    markerzoom="12" labelzoom="13"
+    labelwidth="26" labelheight="11" labellocation="r"
+/>
+<vertex label="Bloomington" long="-79.458923" lat="43.963051"
+    markerzoom="12" labelzoom="13"
+    labelwidth="74" labelheight="11" labellocation="r"
+/>
+<vertex long="-79.463379" lat="43.982140" />
+<vertex label="Henderson" long="-79.4638" lat="43.9838"
+    markerzoom="12" labelzoom="13"
+    labelwidth="55" labelheight="11" labellocation="r"
+/>
+<vertex label="Golf Links" long="-79.4653" lat="43.9905"
+    markerzoom="12" labelzoom="13"
+    labelwidth="55" labelheight="11" labellocation="r"
+/>
+<vertex label="Wellington" long="-79.467590" lat="43.999668"
+    markerzoom="10" labelzoom="11"
+    labelwidth="66" labelheight="11" labellocation="l"
+/>
+<vertex label="Orchard Heights" long="-79.469994" lat="44.008961"
+    markerzoom="12" labelzoom="13"
+    labelwidth="51" labelheight="20" labellocation="r"
+/>
+<vertex label="Savage" long="-79.473853" lat="44.026634"
+    markerzoom="12" labelzoom="13"
+    labelwidth="38" labelheight="11" labellocation="r"
+/>
+<vertex long="-79.473862" lat="44.026649" />
+<vertex label="Mulock" long="-79.476044" lat="44.036339"
+    markerzoom="12" labelzoom="13"
+    labelwidth="43" labelheight="11" labellocation="r"
+/>
+<vertex label="Eagle" long="-79.4781" lat="44.0455"
+    markerzoom="12" labelzoom="13"
+    labelwidth="31" labelheight="11" labellocation="r"
+/>
+<vertex long="-79.480377" lat="44.054840" />
+<vertex long="-79.4872" lat="44.0533" />
+<vertex label="Newmarket GO Bus Terminal" long="-79.4865" lat="44.0528"
+    markerzoom="10" labelzoom="11"
+    labelwidth="81" labelheight="20" labellocation="l"
+/>
+</route>

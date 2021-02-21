@@ -1,0 +1,45 @@
+# Image #1:
+#   initially, 32-point font text centred in black.
+#   then, resized down to 8 pixels high
+#   then, framed with 2 pixel transparent zone
+# Image #2: 50% white background
+# Composited
+
+# Default: 7 pixels high, but adjust to different height depending on
+# presence of other letters.
+HEIGHT=7
+# Two lines: extra height
+if grep -n . /tmp/input.txt | grep -q ^2
+then
+    HEIGHT=16
+fi
+# Three lines: extra height
+if grep -n . /tmp/input.txt | grep -q ^3
+then
+    HEIGHT=25
+fi
+
+EXTRA=0
+if tail -1 /tmp/input.txt | grep -q [Q]
+then
+    EXTRA=1
+fi
+if tail -1 /tmp/input.txt | grep -q [J]
+then
+    EXTRA=2
+fi
+
+HEIGHT=`echo ${HEIGHT}+${EXTRA} | bc`
+convert \
+    \( -size 1200x300 \
+    xc:transparent \
+    -density 144 \
+    -font Gill-Sans-Bold -interline-spacing -15 -pointsize 32 \
+    -channel RGBA \
+    -fill black -stroke black -gravity Center \
+    -annotate 0 @/tmp/input.txt \
+    -trim -resize 300x${HEIGHT} \
+    -compose src -frame 2x2 \) \
+    -compose overlay \
+    \( canvas:white -size 100x100 -alpha set -channel A -evaluate set 65% \) \
+    -composite foo.png
